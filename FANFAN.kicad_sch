@@ -1,0 +1,2411 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ba57f058-d11c-4fd6-b4aa-c756b8e201a0")
+	(paper "A4")
+	(lib_symbols
+		(symbol "RF_components:Powersplitter"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "W"
+				(at -5.334 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "RF_components:50-70.7 Y"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Powersplitter_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy -1.27 -1.27) (xy 1.27 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 -3.81) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "Out1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "Out2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Resistors:0402_R100"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100"
+				(at 0 -2.54 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -6.35 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100 Ohms ±0.5% 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+				(at -5.08 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ERA-2AED101X"
+				(at -5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DN" "P100DECT-ND"
+				(at -5.08 1.27 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR" "Panasonic Electronic Components"
+				(at -5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402_R100_0_1"
+				(rectangle
+					(start -1.016 1.27)
+					(end 1.016 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402_R100_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 119.38 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b56ee94-85ba-425d-ad66-8bac167c9960")
+	)
+	(junction
+		(at 144.78 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10dc01f6-87fa-40f7-813d-985eb212f52f")
+	)
+	(junction
+		(at 144.78 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76c878be-5e5d-45e0-8bc5-96dd73ee3674")
+	)
+	(junction
+		(at 93.98 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80bd9dd0-d826-4acf-b58c-f607979ad2a3")
+	)
+	(junction
+		(at 144.78 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ef78653-616d-471a-a41f-f9fe1c6c0828")
+	)
+	(junction
+		(at 119.38 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7d02589-7fe0-4599-9c42-9c30e94ec64e")
+	)
+	(junction
+		(at 144.78 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be17b0d9-f990-4f9d-966d-93ad49e07583")
+	)
+	(junction
+		(at 144.78 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c74fcc4b-7e37-414d-bb5e-e4d09f889146")
+	)
+	(junction
+		(at 144.78 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd655fda-d481-41d7-92a9-1bb9e874aac7")
+	)
+	(junction
+		(at 93.98 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2d2ccd2-784b-4cff-b973-855f2a8e7e3a")
+	)
+	(junction
+		(at 119.38 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dda1583c-752e-4f48-9b72-e40193972a3b")
+	)
+	(junction
+		(at 119.38 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eecce508-a292-4488-9a4d-3b4a29c535bf")
+	)
+	(wire
+		(pts
+			(xy 144.78 50.8) (xy 142.24 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02554e75-51cd-4ffd-a7b4-b252a5664b47")
+	)
+	(wire
+		(pts
+			(xy 119.38 66.04) (xy 116.84 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0935b935-4e73-4b51-a835-9d52f34f4a4b")
+	)
+	(wire
+		(pts
+			(xy 124.46 73.66) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da7150b-a4b2-40bb-9a1c-92609b144ab0")
+	)
+	(wire
+		(pts
+			(xy 144.78 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120a602c-6f7c-44bb-95f5-02a700655764")
+	)
+	(wire
+		(pts
+			(xy 144.78 78.74) (xy 154.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14953098-37c1-4b8a-b151-d64452004ef9")
+	)
+	(wire
+		(pts
+			(xy 167.64 68.58) (xy 154.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ccef892-f26c-4a49-a66b-0815c7ed4ce3")
+	)
+	(wire
+		(pts
+			(xy 119.38 106.68) (xy 116.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276c0b47-3c1b-4c6c-896f-4c89404724a5")
+	)
+	(wire
+		(pts
+			(xy 154.94 68.58) (xy 154.94 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299fd3c5-3759-49e7-88a8-6c8ecaead311")
+	)
+	(wire
+		(pts
+			(xy 154.94 109.22) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df89131-8827-417d-ba1b-ee65e24ab297")
+	)
+	(wire
+		(pts
+			(xy 167.64 81.28) (xy 154.94 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b3cc9a-96fe-4c29-89a9-1cc051c40fd4")
+	)
+	(wire
+		(pts
+			(xy 119.38 101.6) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d706d92-6ee1-4c45-88a0-92e6572c09b6")
+	)
+	(wire
+		(pts
+			(xy 142.24 58.42) (xy 144.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fafd633-3fc0-486b-8003-b35e91455492")
+	)
+	(wire
+		(pts
+			(xy 93.98 60.96) (xy 99.06 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e1a447-c019-496d-8e07-cfead766f85a")
+	)
+	(wire
+		(pts
+			(xy 154.94 96.52) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b51132-7fad-4b14-a52c-beb2f6105ccd")
+	)
+	(wire
+		(pts
+			(xy 93.98 78.74) (xy 91.44 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656f44db-f4f2-4065-affb-a8dcde6ac16d")
+	)
+	(wire
+		(pts
+			(xy 119.38 101.6) (xy 124.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e25e2e-5107-45d8-8900-e88c666f837b")
+	)
+	(wire
+		(pts
+			(xy 144.78 99.06) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68bdff95-cafa-4956-9957-55899c0e6a62")
+	)
+	(wire
+		(pts
+			(xy 142.24 106.68) (xy 144.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3a633c-55a6-42d1-9744-53090adb7333")
+	)
+	(wire
+		(pts
+			(xy 144.78 58.42) (xy 167.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c18a5e1-e06d-4210-aaa3-e4d5910ea550")
+	)
+	(wire
+		(pts
+			(xy 167.64 109.22) (xy 154.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb2d674-c3ca-4290-9ce1-c7cb4bfd0489")
+	)
+	(wire
+		(pts
+			(xy 142.24 71.12) (xy 144.78 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749b66b3-7178-4d4b-a716-b4bcb7d50076")
+	)
+	(wire
+		(pts
+			(xy 144.78 48.26) (xy 144.78 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752c58b1-3459-428a-9e9b-718af8fd1d45")
+	)
+	(wire
+		(pts
+			(xy 93.98 109.22) (xy 99.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7645370b-3850-433f-b3fd-f86911d83d05")
+	)
+	(wire
+		(pts
+			(xy 119.38 58.42) (xy 116.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea0ad75-9a0e-4b8f-9527-ec8b4011b0e3")
+	)
+	(wire
+		(pts
+			(xy 119.38 53.34) (xy 119.38 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82bdf736-83c5-4392-86d6-df8abf8352b2")
+	)
+	(wire
+		(pts
+			(xy 119.38 73.66) (xy 119.38 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa943d5-c382-415a-95a2-8d9224b54d40")
+	)
+	(wire
+		(pts
+			(xy 142.24 99.06) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac833ab-9429-4d0c-809a-d514c47e2e24")
+	)
+	(wire
+		(pts
+			(xy 154.94 121.92) (xy 154.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb493af-bd30-4a0d-85b8-7cdfbaa44c74")
+	)
+	(wire
+		(pts
+			(xy 116.84 114.3) (xy 119.38 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fdd007d-1266-4afa-8230-0b0805242af6")
+	)
+	(wire
+		(pts
+			(xy 144.78 71.12) (xy 154.94 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7aeeaf-232f-444e-9c90-864c80796bf9")
+	)
+	(wire
+		(pts
+			(xy 93.98 60.96) (xy 93.98 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a0f509-4925-4e48-a05c-96de4acfb889")
+	)
+	(wire
+		(pts
+			(xy 167.64 48.26) (xy 144.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c1df88-c312-4079-9716-a912f208697e")
+	)
+	(wire
+		(pts
+			(xy 119.38 114.3) (xy 154.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d284ec-30b2-4134-ba0f-449053935ba5")
+	)
+	(wire
+		(pts
+			(xy 124.46 53.34) (xy 119.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7772650-60aa-41ae-b224-5f12e292c3e1")
+	)
+	(wire
+		(pts
+			(xy 93.98 86.36) (xy 93.98 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb0e1b5-7fef-4610-a24b-23ac9a1d2dfd")
+	)
+	(wire
+		(pts
+			(xy 93.98 86.36) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04459de-f868-4b4e-8b88-44f19e0111a1")
+	)
+	(wire
+		(pts
+			(xy 142.24 78.74) (xy 144.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7072492-ef90-4084-b336-e0391c98c65c")
+	)
+	(wire
+		(pts
+			(xy 167.64 96.52) (xy 154.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f40c4a-6104-44b5-b793-238240f90638")
+	)
+	(wire
+		(pts
+			(xy 154.94 81.28) (xy 154.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebadb0b9-8aa5-46c0-b2e7-4fbb1afa7d6e")
+	)
+	(hierarchical_label "OUT5"
+		(shape output)
+		(at 167.64 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d5ce089-a056-4fe6-b0ab-3171fc2d4c3a")
+	)
+	(hierarchical_label "OUT3"
+		(shape output)
+		(at 167.64 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25faa9f3-1eff-456e-ac4d-697133338da2")
+	)
+	(hierarchical_label "IN"
+		(shape input)
+		(at 73.66 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c827d14-888c-4a9f-a279-7893dcd76415")
+	)
+	(hierarchical_label "OUT1"
+		(shape output)
+		(at 167.64 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a5085ab-f9be-4a59-8e64-63116180beaf")
+	)
+	(hierarchical_label "OUT6"
+		(shape output)
+		(at 167.64 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7dc73ee4-00ea-434a-ae54-e1cc70bbeb46")
+	)
+	(hierarchical_label "OUT2"
+		(shape output)
+		(at 167.64 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7c9db81-4e80-4ad7-81c1-9a57a9259328")
+	)
+	(hierarchical_label "OUT4"
+		(shape output)
+		(at 167.64 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac5ec4cd-f586-4909-adfa-08e915b67b69")
+	)
+	(symbol
+		(lib_id "Resistors:0402_R100")
+		(at 144.78 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f8ac059-4b28-4823-883e-919336ac815a")
+		(property "Reference" "R11"
+			(at 147.32 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 147.32 73.6599 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 145.034 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Ohms ±0.5% 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+			(at 144.78 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-2AED101X"
+			(at 139.7 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DN" "P100DECT-ND"
+			(at 139.7 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 139.7 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5512f631-2e8b-438e-9eef-90fcd2f01eab")
+		)
+		(pin "2"
+			(uuid "290d9b9c-44ea-469a-bfee-3eb6ab9a6390")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:0402_R100")
+		(at 119.38 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42a1c53e-98b6-4527-b399-c6c870ec8ed2")
+		(property "Reference" "R9"
+			(at 121.92 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 121.92 109.2199 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 119.634 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Ohms ±0.5% 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+			(at 119.38 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-2AED101X"
+			(at 114.3 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DN" "P100DECT-ND"
+			(at 114.3 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 114.3 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a2e96db-6bf7-436d-a8e6-abd74c79641f")
+		)
+		(pin "2"
+			(uuid "aff13440-d340-498c-9899-a89119e4522b")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:0402_R100")
+		(at 144.78 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46ba1932-bc0a-4b1e-bcdf-3453d4f52963")
+		(property "Reference" "R10"
+			(at 147.32 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 147.32 53.3399 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 145.034 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Ohms ±0.5% 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+			(at 144.78 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-2AED101X"
+			(at 139.7 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DN" "P100DECT-ND"
+			(at 139.7 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 139.7 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa0d6018-3044-4e5c-9bfa-7fc44c35dbf9")
+		)
+		(pin "2"
+			(uuid "7c750060-8513-4409-bfe7-b98937c64719")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R40")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_components:Powersplitter")
+		(at 83.82 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b2d050f-efb2-4235-96ae-b2217329e87f")
+		(property "Reference" "W7"
+			(at 82.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 83.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF_components:50-70.7 Y"
+			(at 83.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ab56fe2b-1879-43b4-b5ea-4e35046ed7cc")
+		)
+		(pin "1"
+			(uuid "cb0b8997-0c5c-4ab2-9cd5-88de63ca1609")
+		)
+		(pin "2"
+			(uuid "9c884e4c-2dcd-4836-b846-b0699647106f")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W37")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W31")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W13")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W19")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W25")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60baa094-513e-46b8-b33e-3010ab6a2e36")
+		(property "Reference" "#PWR033"
+			(at 154.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cc7487d-b85b-4eac-8213-3b7f37f225b2")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "#PWR0248")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:0402_R100")
+		(at 119.38 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a318364-7d51-4c28-b584-fadd92286c6f")
+		(property "Reference" "R8"
+			(at 121.92 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 121.92 60.9599 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 119.634 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Ohms ±0.5% 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+			(at 119.38 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-2AED101X"
+			(at 114.3 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DN" "P100DECT-ND"
+			(at 114.3 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 114.3 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2b9a00f-226d-48f7-9801-28f92de74383")
+		)
+		(pin "2"
+			(uuid "b6fb8203-180e-4a05-8ad7-e3edc6e1017c")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R32")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_components:Powersplitter")
+		(at 134.62 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73a90bb9-dd61-49a5-98ad-c5e27ca362da")
+		(property "Reference" "W10"
+			(at 133.35 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 134.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF_components:50-70.7 Y"
+			(at 134.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fab22dc8-6383-41cb-8c6f-e35f62f57c1f")
+		)
+		(pin "3"
+			(uuid "e911c469-85d7-415f-848a-27c11a70ab14")
+		)
+		(pin "2"
+			(uuid "cd5ce959-007c-4077-bf44-1c2d3bebd5f4")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W40")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W34")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W16")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W22")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W28")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_components:Powersplitter")
+		(at 134.62 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b446a3f2-7eea-4ca4-8428-659563516a3a")
+		(property "Reference" "W11"
+			(at 133.35 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF_components:50-70.7 Y"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "154f1008-d86c-4403-9a30-eea72ff5ac7d")
+		)
+		(pin "1"
+			(uuid "c1785b9e-4270-45c2-abb2-03219f13404f")
+		)
+		(pin "2"
+			(uuid "72962aa3-d089-42ae-b602-fb04c1bb94b1")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W41")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W35")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W17")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W23")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W29")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_components:Powersplitter")
+		(at 109.22 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be9745b2-4cc8-4995-930e-8bafad035fbe")
+		(property "Reference" "W8"
+			(at 107.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 109.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF_components:50-70.7 Y"
+			(at 109.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "92e70d2a-75cb-401b-874f-2268fb4c8ff1")
+		)
+		(pin "1"
+			(uuid "c4064fc2-017b-4b53-942c-4619c5bf75dc")
+		)
+		(pin "2"
+			(uuid "b4aaba63-8a0f-4469-880f-bb047c169e75")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W38")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W32")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W14")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W20")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W26")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_components:Powersplitter")
+		(at 134.62 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c99ccd5d-b416-491d-a0eb-344558463aac")
+		(property "Reference" "W12"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF_components:50-70.7 Y"
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0273e25a-ab4d-4740-8830-bfe8057ec3a0")
+		)
+		(pin "3"
+			(uuid "2a667d8e-623b-4deb-9407-f0dd9b60c1e9")
+		)
+		(pin "2"
+			(uuid "15cf6a39-b650-4542-9320-6bdcdd1c2434")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W42")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W36")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W18")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W24")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W30")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:0402_R100")
+		(at 144.78 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf3090d5-63dd-4d6b-a012-be77c67c5fef")
+		(property "Reference" "R12"
+			(at 147.32 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 147.32 101.5999 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 145.034 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Ohms ±0.5% 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+			(at 144.78 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-2AED101X"
+			(at 139.7 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DN" "P100DECT-ND"
+			(at 139.7 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 139.7 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4d040e5-2068-4d8a-a6ab-1cec7c45bf4b")
+		)
+		(pin "2"
+			(uuid "04cc3254-e599-4e97-9a49-97206fb3b1ec")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:0402_R100")
+		(at 154.94 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3ab85a6-e187-4a2e-9ef2-e58b09195114")
+		(property "Reference" "RL2"
+			(at 157.48 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 157.48 124.4599 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 155.194 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Ohms ±0.5% 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+			(at 154.94 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-2AED101X"
+			(at 149.86 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DN" "P100DECT-ND"
+			(at 149.86 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 149.86 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c148967f-2cd5-4fd5-b24f-6812a5ede09b")
+		)
+		(pin "2"
+			(uuid "8f735e4f-5ba6-4586-9860-a01b8833056c")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "RL7")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "RL6")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "RL3")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "RL4")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "RL5")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "RL2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_components:Powersplitter")
+		(at 109.22 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f57d4c83-2b9e-42e9-939f-e7a5ae58a3ca")
+		(property "Reference" "W9"
+			(at 107.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RF_components:50-70.7 Y"
+			(at 109.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "984e0b5e-d20a-402e-a22c-1a5a1d4c243c")
+		)
+		(pin "1"
+			(uuid "e62fd043-7b29-4d67-a859-49c173051d9d")
+		)
+		(pin "2"
+			(uuid "39e416d6-74bd-4d1c-862f-e99b50a4ef46")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W39")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W33")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W15")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W21")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W27")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "W9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:0402_R100")
+		(at 93.98 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f61614c4-ffa5-4565-9f24-d1c44e01f999")
+		(property "Reference" "R7"
+			(at 96.52 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 96.52 81.2799 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 94.234 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 Ohms ±0.5% 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+			(at 93.98 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-2AED101X"
+			(at 88.9 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DN" "P100DECT-ND"
+			(at 88.9 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 88.9 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f17bfd04-5790-4716-99ad-a77ccb8ce87b")
+		)
+		(pin "2"
+			(uuid "d6b7741f-87df-4475-b956-d71688425ba7")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac/47290953-f9b2-4fad-8118-bbcf5fff7ebe"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

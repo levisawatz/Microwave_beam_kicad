@@ -1,0 +1,826 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ad73927f-6a9e-4896-911a-12c181d87976")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 185.42 83.82) (xy 162.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2af17cd1-4386-4117-937a-414a453f94a8")
+	)
+	(wire
+		(pts
+			(xy 152.4 66.04) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340593b8-6415-4a9f-870d-0d5bf7b9f1e1")
+	)
+	(wire
+		(pts
+			(xy 157.48 68.58) (xy 157.48 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "371ccad7-737e-421f-9206-33a33c81d6c1")
+	)
+	(wire
+		(pts
+			(xy 162.56 63.5) (xy 162.56 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cef3e4f-3788-4a6f-9939-f5ac9cbb4bdd")
+	)
+	(wire
+		(pts
+			(xy 91.44 71.12) (xy 114.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e8c0a6-d3b4-4c4c-9d4e-7dd705ef7632")
+	)
+	(wire
+		(pts
+			(xy 157.48 53.34) (xy 185.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e47c14-b6fb-44e4-85bd-ec5afb293df1")
+	)
+	(wire
+		(pts
+			(xy 162.56 71.12) (xy 137.16 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b99f3b9-7b53-47d2-af61-435508eccac2")
+	)
+	(wire
+		(pts
+			(xy 152.4 43.18) (xy 152.4 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f912a7f-ffa9-4cbc-9776-4cf8103dbd25")
+	)
+	(wire
+		(pts
+			(xy 185.42 63.5) (xy 162.56 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7405a31c-a276-48de-a21d-6adb41f49790")
+	)
+	(wire
+		(pts
+			(xy 137.16 78.74) (xy 157.48 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f005bab-f74e-4547-a123-dd1b288cc3bd")
+	)
+	(wire
+		(pts
+			(xy 157.48 78.74) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ec1046-334a-415c-9507-6f7664f927f9")
+	)
+	(wire
+		(pts
+			(xy 137.16 76.2) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c561c89-f2b2-4653-a191-0ba8d476ef6c")
+	)
+	(wire
+		(pts
+			(xy 137.16 73.66) (xy 185.42 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4bf004a-d71c-49c9-86bf-ee1968aefdb9")
+	)
+	(wire
+		(pts
+			(xy 157.48 93.98) (xy 185.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47c5252-9542-4e28-ae31-60a41d910a19")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b547a0ff-4520-4c75-a6d2-d76246736bcc")
+	)
+	(wire
+		(pts
+			(xy 185.42 43.18) (xy 152.4 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea5ec1c-aae3-4b14-80c2-8241a89e66b1")
+	)
+	(wire
+		(pts
+			(xy 137.16 68.58) (xy 157.48 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc021808-85d4-4055-b260-99663842fb8d")
+	)
+	(label "Antenna_5"
+		(at 198.12 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2216d479-9b7b-4513-bfa2-1bcf36b7c5b2")
+	)
+	(label "Antenna_6"
+		(at 198.12 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "666c5b8d-be2a-496d-b5de-7364bf005f7d")
+	)
+	(label "Antenna_3"
+		(at 198.12 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dd161a7-e645-4c10-a357-ad4f11cdbd3b")
+	)
+	(label "Antenna_1"
+		(at 198.12 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3e268a6-b040-4e5f-9aa5-7e2c02b5dcd6")
+	)
+	(label "Antenna_4"
+		(at 198.12 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c38cd87b-fd2e-45a8-a92a-11c884878f77")
+	)
+	(label "Antenna_2"
+		(at 198.12 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecc07563-1d43-4f73-8435-8a48728452cf")
+	)
+	(hierarchical_label "IN"
+		(shape input)
+		(at 91.44 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a135d53-b295-4df1-930a-624e107cd966")
+	)
+	(sheet
+		(at 185.42 71.12)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d8229df-53af-4bf0-bfe6-fcdf402dbe2a")
+		(property "Sheetname" "POWER AMP4"
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER_AMP2.kicad_sch"
+			(at 181.61 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "RF_IN" input
+			(at 185.42 73.66 180)
+			(uuid "6002a17a-562e-4cc3-b62d-22f2933cc91b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_OUT" input
+			(at 198.12 76.2 0)
+			(uuid "65830693-e37d-4a9d-9b23-fc08a1986b8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac"
+					(page "6")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e"
+					(page "16")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71"
+					(page "23")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81"
+					(page "30")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849"
+					(page "37")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba"
+					(page "44")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 40.64)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26da86d1-b637-49f6-80d0-4f18bf475f2c")
+		(property "Sheetname" "POWER AMP1"
+			(at 185.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER_AMP.kicad_sch"
+			(at 181.61 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "RF_IN" input
+			(at 185.42 43.18 180)
+			(uuid "8021a38f-ece9-4a68-bbe4-9e2007be1e99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_OUT" input
+			(at 198.12 45.72 0)
+			(uuid "1c0f3ea4-b011-4801-af9e-0eb32a1e434d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac"
+					(page "4")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e"
+					(page "11")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71"
+					(page "18")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81"
+					(page "25")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849"
+					(page "32")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba"
+					(page "39")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 63.5)
+		(size 22.86 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "47290953-f9b2-4fad-8118-bbcf5fff7ebe")
+		(property "Sheetname" "FANFAN A"
+			(at 114.3 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FANFAN.kicad_sch"
+			(at 114.3 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 114.3 71.12 180)
+			(uuid "8c7ff6f1-e9d1-46d7-87dc-5bd1e905803d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT3" output
+			(at 137.16 71.12 0)
+			(uuid "dde774a3-fa42-4d38-9c97-f0673d71bf18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2" output
+			(at 137.16 68.58 0)
+			(uuid "8a8ff90e-dd65-4745-99e6-9492c158f5d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT4" output
+			(at 137.16 73.66 0)
+			(uuid "7bd85b16-39af-408c-8f0e-7d7b613c70d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT6" output
+			(at 137.16 78.74 0)
+			(uuid "d2f074bf-de54-4e0e-80ee-051732d03bc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT5" output
+			(at 137.16 76.2 0)
+			(uuid "94369219-ce87-4662-8e18-ba09de6cf895")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT1" output
+			(at 137.16 66.04 0)
+			(uuid "cdf54d91-8984-401d-adb5-d9047c234999")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac"
+					(page "46")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e"
+					(page "47")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 60.96)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e1b8bbb-a09f-4100-864d-414a91ea6967")
+		(property "Sheetname" "POWER AMP3"
+			(at 185.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER_AMP.kicad_sch"
+			(at 181.61 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "RF_IN" input
+			(at 185.42 63.5 180)
+			(uuid "19c77090-9db5-4a05-b57a-52791a336510")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_OUT" input
+			(at 198.12 66.04 0)
+			(uuid "fb4bf0d0-93fc-4604-a288-ae32d9896110")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac"
+					(page "7")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e"
+					(page "13")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71"
+					(page "20")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81"
+					(page "27")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849"
+					(page "34")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba"
+					(page "41")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 50.8)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8efa0285-5358-4708-9fc5-7c0d501c6f03")
+		(property "Sheetname" "POWER AMP2"
+			(at 185.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER_AMP2.kicad_sch"
+			(at 181.61 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "RF_IN" input
+			(at 185.42 53.34 180)
+			(uuid "2bf614c8-b5c0-4c1e-913b-cff816dc3053")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_OUT" input
+			(at 198.12 55.88 0)
+			(uuid "3d879ccd-5a11-402f-962a-f99a0e302071")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac"
+					(page "5")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e"
+					(page "12")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71"
+					(page "19")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81"
+					(page "26")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849"
+					(page "33")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba"
+					(page "40")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 91.44)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d4c1f3bf-ee2d-4a3a-b85e-720a08bb855b")
+		(property "Sheetname" "POWER AMP6"
+			(at 185.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER_AMP2.kicad_sch"
+			(at 181.61 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "RF_IN" input
+			(at 185.42 93.98 180)
+			(uuid "fe6ad232-8fd2-4388-8790-567f455c23a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_OUT" input
+			(at 198.12 96.52 0)
+			(uuid "6911e386-6aa8-4eff-80e0-c8c2790a9d31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac"
+					(page "8")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e"
+					(page "14")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71"
+					(page "21")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81"
+					(page "28")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849"
+					(page "35")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba"
+					(page "42")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 81.28)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e733fc34-a8b4-4bda-9902-6ea3db870834")
+		(property "Sheetname" "POWER AMP5"
+			(at 185.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER_AMP.kicad_sch"
+			(at 181.61 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "RF_IN" input
+			(at 185.42 83.82 180)
+			(uuid "7df3def9-421b-4a57-8532-128910321dab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_OUT" input
+			(at 198.12 86.36 0)
+			(uuid "e960ee79-a42b-45a5-8f87-fb06f81cfdbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/993f76f3-ee4f-48f4-97ba-006e4f1910ac"
+					(page "9")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/52822477-ceaa-4470-85bc-95921d8a2a9e"
+					(page "15")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/5a66da54-ace3-44aa-9ed3-2d745b15fc71"
+					(page "22")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/7839647c-45ff-400f-a859-22bcac9f1f81"
+					(page "29")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/3489d660-f383-4956-b4ac-584153646849"
+					(page "36")
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186/287183ab-7dcf-425d-a553-85a4a64282ba"
+					(page "43")
+				)
+			)
+		)
+	)
+)
