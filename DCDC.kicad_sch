@@ -1,10 +1,220 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "dc849bfc-b8f0-415a-a12f-623a98d53b37")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Capacitors:0402_pF_100_50V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.54 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100pF"
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at 1.27 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -6.35 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+				(at -5.08 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "GCH1555C1H101JE01"
+				(at -1.27 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DN" "490-GCM1555C1H102GA16JCT-ND"
+				(at -1.27 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SRF" "835MHz"
+				(at -1.27 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402_pF_100_50V_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -3.175) (xy 1.27 -3.175)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -4.445) (xy 1.27 -4.445)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.175) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.445) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402_pF_100_50V_1_1"
+				(pin passive line
+					(at 0 0 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Capacitors:0603_nf100"
 			(pin_numbers
 				(hide yes)
@@ -15,8 +225,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 2.54 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -25,6 +239,8 @@
 			)
 			(property "Value" "100nF"
 				(at 2.54 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -33,83 +249,101 @@
 			)
 			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at -6.35 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 				(at -5.08 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "MPN" "GCJ188R71H104KA12D"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "DN" "490-5798-1-ND"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFR" "Murata Electronics"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "price" ".10"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "C cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "0603_nf100_0_1"
@@ -166,7 +400,7 @@
 				(pin passive line
 					(at 0 0 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -184,7 +418,7 @@
 				(pin passive line
 					(at 0 -7.62 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -212,8 +446,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 2.54 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -222,6 +460,8 @@
 			)
 			(property "Value" "10uF"
 				(at 2.54 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -230,83 +470,101 @@
 			)
 			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
 				(at -6.35 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "10 µF ±10% 50V Ceramic Capacitor X5R 1206 (3216 Metric)"
 				(at -5.08 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "MPN" "GRT31CR61H106KE01L"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "DN" "490-12456-1-ND"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFR" "Murata Electronics"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "price" ".388"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "C cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "1206_uF10_0_1"
@@ -363,7 +621,7 @@
 				(pin passive line
 					(at 0 0 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -381,439 +639,7 @@
 				(pin passive line
 					(at 0 -7.62 90)
 					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DCDC:AP7361-33E-13"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 7.62 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "AP7361-33E-13"
-				(at 15.24 12.7 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "DCDC:SOT-223_DIO"
-				(at 12.7 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 10.16 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "IC REG LINEAR 3.3V 1A SOT-223-3"
-				(at 10.16 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "AP7361-33E-13"
-				(at 7.62 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DN" "AP7361-33E-13DICT-ND"
-				(at 10.16 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFR" "Diodes Incorporated"
-				(at 10.16 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "cost" ".48"
-				(at 7.62 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "IC REG LINEAR 3.3V 1A SOT-223-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT-223_DIO SOT-223_DIO-M SOT-223_DIO-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AP7361-33E-13_1_1"
-				(rectangle
-					(start 5.08 5.08)
-					(end 27.94 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 0 2.54 0)
-					(length 5.08)
-					(name "INPUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "ADJ/GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 33.02 2.54 180)
-					(length 5.08)
-					(name "OUTPUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 33.02 -2.54 180)
-					(length 5.08)
-					(name "EPAD(GND)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DCDC:TLV741285PDBVR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TLV741285PDBVR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "DCDC:SOT23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv741p"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "IC REG LIN 2.85V 150MA SOT23-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "TLV741285PDBVR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DN" "296-TLV741285PDBVRCT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFR" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "TLV741285PDBVR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DBV0005A_N DBV0005A_M DBV0005A_L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV741285PDBVR_0_1"
-				(polyline
-					(pts
-						(xy -12.7 10.16) (xy -12.7 -10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 -10.16) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 10.16) (xy -12.7 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -5.08 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -838,8 +664,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -848,6 +678,8 @@
 			)
 			(property "Value" "TPS56A37RPAR"
 				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -856,85 +688,103 @@
 			)
 			(property "Footprint" "DCDC:DCDC_RPA0010A-MFG"
 				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/gpn/tps56a37"
 				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "IC REG BUCK ADJ 10A 10VQFN"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "MPN" "TPS56A37RPAR"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "DN" "296-TPS56A37RPARCT-ND"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFR" "Texas Instruments"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "price" "4.45000"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "TPS56A37RPAR"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "RPA0010A-MFG"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "TPS56A37RPAR_0_1"
@@ -986,24 +836,6 @@
 						(type none)
 					)
 				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 -5.08 0)
 					(length 5.08)
@@ -1015,96 +847,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -17.78 0)
-					(length 5.08)
-					(name "SS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -27.94 0)
-					(length 5.08)
-					(name "MODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 35.56 0 180)
-					(length 5.08)
-					(name "BOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 35.56 -7.62 180)
-					(length 5.08)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 35.56 -12.7 180)
-					(length 5.08)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1131,24 +873,6 @@
 					)
 				)
 				(pin power_in line
-					(at 35.56 -22.86 180)
-					(length 5.08)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 35.56 -27.94 180)
 					(length 5.08)
 					(name "AGND"
@@ -1166,6 +890,132 @@
 						)
 					)
 				)
+				(pin open_collector line
+					(at 35.56 -12.7 180)
+					(length 5.08)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 35.56 -7.62 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 35.56 -22.86 180)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -1176,8 +1026,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
 				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1187,67 +1041,81 @@
 			)
 			(property "Value" "WE-XHMI_7070"
 				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "Inductors:WE-XHMI_7070"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "3.3 µH Shielded Molded Inductor 18.2 A 8.76mOhm Max Nonstandard"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "DN" "732-74439387033CT-ND"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "MPN" "74439387033"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFR" "Würth Elektronik"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "WE-XHMI_7070_0_0"
@@ -1313,7 +1181,7 @@
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1331,7 +1199,7 @@
 				(pin passive line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1359,8 +1227,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1369,7 +1241,8 @@
 			)
 			(property "Value" "10K"
 				(at 0 -2.54 90)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1379,74 +1252,90 @@
 			)
 			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 				(at -7.62 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at -6.35 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor"
 				(at -11.43 1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "MPN" "~"
+			(property "MPN" ""
 				(at -8.89 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "DN" "~"
+			(property "DN" ""
 				(at -8.89 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "MFR" "~"
+			(property "MFR" ""
 				(at -8.89 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "0603_R_10K_0_1"
@@ -1466,7 +1355,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1484,7 +1373,7 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1512,8 +1401,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1522,7 +1415,8 @@
 			)
 			(property "Value" "52.3k"
 				(at -2.54 -5.08 90)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1532,83 +1426,101 @@
 			)
 			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 				(at -7.62 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at -6.35 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "52.3 kOhms ±0.5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
 				(at -11.43 1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "MPN" "ERA-3AED5232V"
 				(at -8.89 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "DN" "10-ERA-3AED5232VCT-ND"
 				(at -8.89 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFR" "Panasonic Electronic Components"
 				(at -8.89 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "price" ".1"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "0603_R_52K3_0_1"
@@ -1628,7 +1540,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1646,7 +1558,7 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1674,8 +1586,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1684,7 +1600,8 @@
 			)
 			(property "Value" "73.2K"
 				(at -2.54 -5.08 90)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1694,83 +1611,101 @@
 			)
 			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 				(at -7.62 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at -6.35 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "73.2 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
 				(at -11.43 1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "MPN" "ERA-3AEB7322V"
 				(at -8.89 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "DN" "P73.2KDBCT-ND"
 				(at -8.89 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "MFR" "Panasonic Electronic Components"
 				(at -8.89 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "price" ".1"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "0603_R_73K2_0_1"
@@ -1790,7 +1725,7 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1808,7 +1743,7 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1826,133 +1761,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1963,17 +1773,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1982,38 +1798,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -2034,7 +1858,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2053,26 +1877,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Cin: 1uF\nCout 1-100uF"
-		(exclude_from_sim no)
-		(at 43.18 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a1efccc8-668d-4725-8795-4f4398b8dab7")
-	)
-	(text "Cin: 1uF\nCout 4.7uF+"
-		(exclude_from_sim no)
-		(at 53.34 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d556b6e2-a1c5-41d6-8ad8-3a19aad6e5d7")
-	)
 	(junction
 		(at 147.32 66.04)
 		(diameter 0)
@@ -2090,12 +1894,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0935a2b0-a632-4232-b802-baded73731b1")
-	)
-	(junction
-		(at 180.34 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f625a01-65c8-4fdc-bff7-9af1c4b1b054")
 	)
 	(junction
 		(at 154.94 73.66)
@@ -2122,28 +1920,10 @@
 		(uuid "48852d97-02a4-43e5-9b25-5b7fac334906")
 	)
 	(junction
-		(at 109.22 134.62)
+		(at 134.62 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "70edad80-d8b8-47b7-a498-3f676e796b4f")
-	)
-	(junction
-		(at 99.06 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e506076-584e-4544-a1c6-d96c78c0408f")
-	)
-	(junction
-		(at 53.34 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81f4e8dc-4752-419e-b3fd-50a8a950942a")
-	)
-	(junction
-		(at 93.98 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84707a77-4147-432e-b369-645c440730c9")
+		(uuid "71902504-a016-47e1-8b5d-0cf5ba75d79b")
 	)
 	(junction
 		(at 119.38 93.98)
@@ -2168,12 +1948,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90d11699-443d-40e5-9269-18dc9e327b8d")
-	)
-	(junction
-		(at 99.06 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f3269ea-e507-4707-809b-9527ca88c52d")
 	)
 	(junction
 		(at 162.56 73.66)
@@ -2206,12 +1980,6 @@
 		(uuid "d54d86ce-4757-4527-a0d9-36dfd5edb52c")
 	)
 	(junction
-		(at 50.8 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6a418cf-f69a-48f1-bf23-a7c9d710f558")
-	)
-	(junction
 		(at 127 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2229,16 +1997,6 @@
 		(color 0 0 0 0)
 		(uuid "f4e4676b-d17f-47ca-98d2-58ca40595b9c")
 	)
-	(junction
-		(at 50.8 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa4f6eb1-3f59-4a56-8e2e-8eb385db2c4a")
-	)
-	(no_connect
-		(at 88.9 172.72)
-		(uuid "56d8e8c0-0f33-43fd-bcd6-66a74231daa8")
-	)
 	(wire
 		(pts
 			(xy 35.56 66.04) (xy 40.64 66.04)
@@ -2248,16 +2006,6 @@
 			(type default)
 		)
 		(uuid "04bbbbf3-39fe-4f65-b737-7a5361883c4a")
-	)
-	(wire
-		(pts
-			(xy 93.98 142.24) (xy 99.06 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0da870c0-e6a2-4b3f-b144-521ae5974dc5")
 	)
 	(wire
 		(pts
@@ -2291,16 +2039,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 167.64) (xy 93.98 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14cdfee8-e816-43dd-a42f-6360b6205030")
-	)
-	(wire
-		(pts
 			(xy 147.32 66.04) (xy 154.94 66.04)
 		)
 		(stroke
@@ -2308,26 +2046,6 @@
 			(type default)
 		)
 		(uuid "162325a2-d914-4695-adf8-919692f022d6")
-	)
-	(wire
-		(pts
-			(xy 180.34 66.04) (xy 182.88 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18f014ce-ee9d-43ac-9aae-9add57b5811a")
-	)
-	(wire
-		(pts
-			(xy 50.8 142.24) (xy 58.42 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b3c315f-2056-48bd-8678-28ca4d625025")
 	)
 	(wire
 		(pts
@@ -2348,36 +2066,6 @@
 			(type default)
 		)
 		(uuid "2f4bd860-9e9b-4445-9750-80a84b89ead7")
-	)
-	(wire
-		(pts
-			(xy 93.98 139.7) (xy 91.44 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f8b6189-3ff8-4238-827a-6872332aa059")
-	)
-	(wire
-		(pts
-			(xy 58.42 142.24) (xy 58.42 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34fcbdc7-e06e-4005-9b32-93716f4572dc")
-	)
-	(wire
-		(pts
-			(xy 53.34 167.64) (xy 53.34 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35f0db91-5004-4590-a425-6d8cb0035e88")
 	)
 	(wire
 		(pts
@@ -2411,16 +2099,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 134.62) (xy 111.76 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c7615df-aa7d-47e6-84f2-8cae8e41418e")
-	)
-	(wire
-		(pts
 			(xy 134.62 86.36) (xy 134.62 91.44)
 		)
 		(stroke
@@ -2428,16 +2106,6 @@
 			(type default)
 		)
 		(uuid "551a7b3a-798b-46b0-9e51-220063db1810")
-	)
-	(wire
-		(pts
-			(xy 91.44 134.62) (xy 99.06 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5766a2ab-637e-4a2d-b65e-bd4c6cf0ef97")
 	)
 	(wire
 		(pts
@@ -2511,16 +2179,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 134.62) (xy 99.06 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9470a1be-4021-4731-ba07-42b3d4fcf3fa")
-	)
-	(wire
-		(pts
 			(xy 45.72 66.04) (xy 58.42 66.04)
 		)
 		(stroke
@@ -2531,17 +2189,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 167.64) (xy 53.34 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4024439-340a-44d4-a009-8b5b320d2dce")
-	)
-	(wire
-		(pts
-			(xy 170.18 66.04) (xy 180.34 66.04)
+			(xy 170.18 66.04) (xy 182.88 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2581,6 +2229,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 78.74) (xy 127 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1aa6e4c-1e26-4071-adbe-1e1370be2a7d")
+	)
+	(wire
+		(pts
 			(xy 78.74 71.12) (xy 81.28 71.12)
 		)
 		(stroke
@@ -2588,26 +2246,6 @@
 			(type default)
 		)
 		(uuid "b1eadcc1-137a-4e34-9ed9-652cca764c49")
-	)
-	(wire
-		(pts
-			(xy 93.98 167.64) (xy 88.9 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b26b8027-123b-47d0-8420-31fb708f5594")
-	)
-	(wire
-		(pts
-			(xy 93.98 177.8) (xy 88.9 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b38dc0c9-f91e-4c42-974d-d0520925cb4f")
 	)
 	(wire
 		(pts
@@ -2621,13 +2259,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 139.7) (xy 93.98 142.24)
+			(xy 134.62 78.74) (xy 134.62 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b98a9ad9-d622-4f7f-9ce3-5455605dfbb3")
+		(uuid "b9399963-c7f2-447b-8767-8cf8672c2814")
 	)
 	(wire
 		(pts
@@ -2698,16 +2336,6 @@
 			(type default)
 		)
 		(uuid "d0fd0a17-506c-4b1e-8b0c-0e914605e8a4")
-	)
-	(wire
-		(pts
-			(xy 50.8 134.62) (xy 58.42 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df0ddf8d-80fd-414f-960e-37e5d87b226e")
 	)
 	(wire
 		(pts
@@ -8480,28 +8108,6 @@
 		)
 		(uuid "20cf900d-bbc5-48f6-a942-8e7ec29b24b0")
 	)
-	(hierarchical_label "2V85"
-		(shape output)
-		(at 99.06 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "77594670-1070-4234-b7cf-af1d28a6fe0e")
-	)
-	(hierarchical_label "3V3"
-		(shape output)
-		(at 111.76 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "913d7fe7-4891-4c0e-8235-df26c4a55005")
-	)
 	(hierarchical_label "5V"
 		(shape output)
 		(at 182.88 66.04 0)
@@ -8517,13 +8123,17 @@
 		(lib_id "Capacitors:1206_uF10")
 		(at 147.32 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00b1727b-c28d-423d-a569-c1ddb1b7b1c7")
 		(property "Reference" "CB7"
 			(at 147.32 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8533,6 +8143,8 @@
 		)
 		(property "Value" "10uF"
 			(at 147.32 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8542,75 +8154,89 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 145.542 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
 			(at 140.97 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X5R 1206 (3216 Metric)"
 			(at 142.24 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "GRT31CR61H106KE01L"
 			(at 147.32 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DN" "490-12456-1-ND"
 			(at 147.32 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Murata Electronics"
 			(at 147.32 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "price" ".388"
 			(at 147.32 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "2e34b780-f704-42d5-8144-9c80f1ca73af")
+			(uuid "6f8d72d5-1dce-4148-8803-86b5e9d37520")
 		)
 		(pin "2"
-			(uuid "7dfc019f-603a-44f5-b7dc-aac6a0069594")
+			(uuid "65b75b77-198a-4c73-922b-9aa722ebc5fe")
 		)
 		(instances
-			(project ""
+			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
 					(reference "CB7")
 					(unit 1)
@@ -8623,13 +8249,17 @@
 		(at 81.28 73.66 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "105a8c66-4286-4630-ac44-748810b27e42")
-		(property "Reference" "R45"
+		(property "Reference" "RB3"
 			(at 83.82 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8638,6 +8268,7 @@
 		)
 		(property "Value" "10K"
 			(at 81.28 76.2 90)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8648,134 +8279,80 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.9 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 87.63 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
 			(at 92.71 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "~"
+		(property "MPN" ""
 			(at 90.17 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "DN" "~"
+		(property "DN" ""
 			(at 90.17 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MFR" "~"
+		(property "MFR" ""
 			(at 90.17 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "9c22c8c9-c052-4389-bc65-e2f8f4e462e5")
+			(uuid "9c328ef4-87f3-4a96-9a61-470ac273933f")
 		)
 		(pin "2"
-			(uuid "defcdb91-3185-4ecb-94d4-eb21ab310a5d")
+			(uuid "c942635b-30b2-47a1-9e14-32352a04c571")
 		)
 		(instances
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 78.74 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "130a965b-7a12-47c2-ab12-e885ad3f2cd8")
-		(property "Reference" "#PWR0300"
-			(at 78.74 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.74 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd4b8ae9-9d1c-4c58-82d3-9221540e0f07")
-		)
-		(instances
-			(project "Microwave_Beamer"
-				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "#PWR0300")
+					(reference "RB3")
 					(unit 1)
 				)
 			)
@@ -8785,23 +8362,29 @@
 		(lib_id "power:GND")
 		(at 134.62 91.44 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "157b9f13-56e6-4e28-bce1-aa65cd97fc97")
 		(property "Reference" "#PWR0303"
 			(at 134.62 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 134.62 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8810,33 +8393,39 @@
 		)
 		(property "Footprint" ""
 			(at 134.62 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 134.62 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "3a01fdd0-3318-4286-9ecb-891b2ede9874")
+			(uuid "b22c0a5f-0e2f-4922-a4e8-676a0b20fedc")
 		)
 		(instances
 			(project "Microwave_Beamer"
@@ -8851,13 +8440,17 @@
 		(lib_id "Resistors:0603_R_10K")
 		(at 129.54 86.36 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "208d5016-a886-44ea-b687-8ad1677714bf")
-		(property "Reference" "R46"
-			(at 132.08 88.9 90)
+		(property "Reference" "RB4"
+			(at 137.16 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,6 +8459,7 @@
 		)
 		(property "Value" "10K"
 			(at 132.08 86.36 90)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8876,68 +8470,80 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 129.54 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 125.095 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
 			(at 128.27 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "~"
+		(property "MPN" ""
 			(at 130.81 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "DN" "~"
+		(property "DN" ""
 			(at 130.81 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MFR" "~"
+		(property "MFR" ""
 			(at 130.81 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "0f5a8ca8-85cc-4eb2-8468-cc2d85530b47")
+			(uuid "6350eb99-2e53-428f-9ef6-7df50df26e91")
 		)
 		(pin "2"
-			(uuid "1c2fbc8b-51d1-450a-b8c0-6cfddece7545")
+			(uuid "166f5951-3aa1-4d73-b0a2-cb379964e9bc")
 		)
 		(instances
-			(project ""
+			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "R46")
+					(reference "RB4")
 					(unit 1)
 				)
 			)
@@ -8947,23 +8553,29 @@
 		(lib_id "power:GND")
 		(at 119.38 93.98 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20ea459a-54fd-44c2-9ea2-adb29c574b22")
 		(property "Reference" "#PWR0302"
 			(at 119.38 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 119.38 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8972,36 +8584,42 @@
 		)
 		(property "Footprint" ""
 			(at 119.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 119.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 119.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "0d78980e-fba0-49e5-86c2-711cd067df95")
+			(uuid "d52ad5f6-3c11-41b9-b81d-295213ce32e7")
 		)
 		(instances
-			(project ""
+			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
 					(reference "#PWR0302")
 					(unit 1)
@@ -9011,25 +8629,31 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 177.8 0)
+		(at 78.74 101.6 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "28ae15c4-cab9-4845-9a7a-60f0e376a1e4")
-		(property "Reference" "#PWR0312"
-			(at 93.98 184.15 0)
+		(uuid "2736e77f-890a-4147-988a-de0b4d72c24f")
+		(property "Reference" "#PWR042"
+			(at 78.74 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 182.88 0)
+			(at 78.74 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9037,39 +8661,45 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 177.8 0)
+			(at 78.74 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 177.8 0)
+			(at 78.74 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 177.8 0)
+			(at 78.74 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "7d7f5390-ae04-4c00-bd7c-85076869c2d7")
+			(uuid "65f07fc0-aeda-4c36-98b9-ca5dfe7fc19b")
 		)
 		(instances
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "#PWR0312")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9079,23 +8709,29 @@
 		(lib_id "power:GND")
 		(at 154.94 73.66 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2944116e-3cdc-4f6f-ad18-f9c7425477c0")
 		(property "Reference" "#PWR0304"
 			(at 154.94 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 154.94 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9104,33 +8740,39 @@
 		)
 		(property "Footprint" ""
 			(at 154.94 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 154.94 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 154.94 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "a6c94fec-a8cd-4224-a967-8a08b25b7835")
+			(uuid "d2cec507-09d3-4e5c-bd22-b15d127b54e7")
 		)
 		(instances
 			(project "Microwave_Beamer"
@@ -9145,14 +8787,18 @@
 		(lib_id "Resistors:0603_R_52K3")
 		(at 78.74 96.52 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29eac97f-e9e8-4f63-9d8a-fc3f3f419600")
-		(property "Reference" "R44"
+		(property "Reference" "RB2"
 			(at 81.28 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9162,6 +8808,7 @@
 		)
 		(property "Value" "52.3k"
 			(at 76.2 101.6 90)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9172,77 +8819,91 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 71.12 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 72.39 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "52.3 kOhms ±0.5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
 			(at 67.31 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "ERA-3AED5232V"
 			(at 69.85 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DN" "10-ERA-3AED5232VCT-ND"
 			(at 69.85 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Panasonic Electronic Components"
 			(at 69.85 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "price" ".1"
 			(at 78.74 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "875237cd-5713-4631-88b0-5e74e253c735")
+			(uuid "1390acf1-927e-430f-a8bc-a50a2d21f8e4")
 		)
 		(pin "2"
-			(uuid "07ec6244-b5b7-4d41-8afa-5df85dd77c49")
+			(uuid "5f50cc24-e883-4e54-aacf-6eac81f645e5")
 		)
 		(instances
-			(project ""
+			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "R44")
+					(reference "RB2")
 					(unit 1)
 				)
 			)
@@ -9252,14 +8913,18 @@
 		(lib_id "Capacitors:0603_nf100")
 		(at 121.92 66.04 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ff274ee-8655-40e3-a910-cfcb75d37f96")
 		(property "Reference" "CB6"
 			(at 125.73 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9268,6 +8933,8 @@
 		)
 		(property "Value" "100nF"
 			(at 125.73 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9276,75 +8943,89 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 121.92 67.818 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 118.745 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 114.3 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "GCJ188R71H104KA12D"
 			(at 121.92 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DN" "490-5798-1-ND"
 			(at 121.92 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Murata Electronics"
 			(at 121.92 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "price" ".10"
 			(at 121.92 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "c0117c2a-d95e-4361-b94c-e24b45d5c6cc")
+			(uuid "4e65c6dd-fa4e-4512-a564-9f98d780b9eb")
 		)
 		(pin "1"
-			(uuid "5c5e9209-0972-458e-b50d-fc08931d577a")
+			(uuid "1a657125-9a9e-4b48-b477-df2df451ceee")
 		)
 		(instances
-			(project ""
+			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
 					(reference "CB6")
 					(unit 1)
@@ -9356,14 +9037,18 @@
 		(lib_id "DCDC:TPS56A37RPAR")
 		(at 83.82 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38aa0371-07ab-422f-9cb7-b0b54aa06018")
 		(property "Reference" "U50"
 			(at 101.6 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9372,6 +9057,8 @@
 		)
 		(property "Value" "TPS56A37RPAR"
 			(at 101.6 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9380,275 +9067,117 @@
 		)
 		(property "Footprint" "DCDC:DCDC_RPA0010A-MFG"
 			(at 83.82 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps56a37"
 			(at 83.82 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "IC REG BUCK ADJ 10A 10VQFN"
 			(at 83.82 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "TPS56A37RPAR"
 			(at 83.82 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DN" "296-TPS56A37RPARCT-ND"
 			(at 83.82 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Texas Instruments"
 			(at 83.82 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "price" "4.45000"
 			(at 83.82 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "7ea387d0-446e-4f8b-bfa5-e26b472897ff")
+			(uuid "392382ed-4124-4aae-9ad8-232c88a2c627")
 		)
 		(pin "5"
-			(uuid "a6106614-a962-467b-9360-e53c0f46553d")
+			(uuid "86f8f586-f061-4e5b-8668-2c02f3dfb592")
 		)
 		(pin "7"
-			(uuid "59eddd0b-f408-4e3e-8019-4e56e2b30246")
+			(uuid "58969d72-e00c-4f63-8990-96063cd6eeb1")
 		)
 		(pin "6"
-			(uuid "ccf55fc8-4b74-43c0-8a30-8b34da8c8add")
+			(uuid "7c473522-01c8-40db-b78c-82d460e7ff68")
 		)
 		(pin "8"
-			(uuid "c0fc140d-f80b-4f44-a3c5-af4d3de76d69")
+			(uuid "f479bf56-cba0-449a-a572-2bd2078bbaca")
 		)
 		(pin "10"
-			(uuid "df97ccd0-d46a-4de7-9314-bf2d265f8f61")
+			(uuid "219c437c-1522-4eda-af19-1ce274974064")
 		)
 		(pin "4"
-			(uuid "da60ea8a-dcdc-4511-a14a-20929fe4e2ee")
+			(uuid "d3e28fed-7346-4703-b9da-12fb12971038")
 		)
 		(pin "2"
-			(uuid "fd706e56-a7a6-48d4-a154-6aa73b9c952c")
+			(uuid "4109fec8-17bb-4de7-8446-7a42f5bbf436")
 		)
 		(pin "9"
-			(uuid "2dc173e1-66b0-49dd-94ed-1572d07bc46d")
+			(uuid "1f5e8ae1-7435-474d-bc86-4dec0b204d05")
 		)
 		(pin "3"
-			(uuid "4c556a6e-7bce-4126-a4cf-d0f9a746bbc0")
-		)
-		(instances
-			(project ""
-				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "U50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DCDC:TLV741285PDBVR")
-		(at 71.12 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e3f9917-13b3-413b-b050-ad4a72247801")
-		(property "Reference" "U52"
-			(at 71.12 157.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLV741285PDBVR"
-			(at 71.12 160.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DCDC:SOT23-5"
-			(at 71.12 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv741p"
-			(at 71.12 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC REG LIN 2.85V 150MA SOT23-5"
-			(at 71.12 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TLV741285PDBVR"
-			(at 71.12 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DN" "296-TLV741285PDBVRCT-ND"
-			(at 71.12 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Texas Instruments"
-			(at 71.12 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "73644a3a-a91f-4a07-b811-0296a59c73f7")
-		)
-		(pin "2"
-			(uuid "3bbea0fc-74c5-412b-99f9-6a96db44639f")
-		)
-		(pin "4"
-			(uuid "3dbe9aee-fc72-49a0-adcc-e23c0509545f")
-		)
-		(pin "1"
-			(uuid "17705e6e-d079-45cd-b0ec-13f56d427967")
-		)
-		(pin "5"
-			(uuid "20ce6195-03ef-40a0-be93-53c208ff6ec9")
-		)
-		(instances
-			(project ""
-				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "U52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43adc94a-6c52-4162-8956-500cd9b605bb")
-		(property "Reference" "#PWR0307"
-			(at 50.8 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62551b77-cdd1-41ad-9dcf-703d5ba5e4a9")
+			(uuid "09b5b9c4-ba0a-4d98-8aa5-7bcfe01952bd")
 		)
 		(instances
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "#PWR0307")
+					(reference "U50")
 					(unit 1)
 				)
 			)
@@ -9658,21 +9187,26 @@
 		(lib_id "Resistors:0603_R_73K2")
 		(at 132.08 83.82 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "62fa7702-a1e0-4ae1-8670-05d11951ded0")
-		(property "Reference" "R47"
-			(at 130.81 80.01 90)
+		(property "Reference" "RB5"
+			(at 137.16 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "73.2K"
+		(property "Value" "73K2"
 			(at 128.27 83.82 90)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9683,182 +9217,91 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 132.08 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 136.525 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "73.2 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
 			(at 133.35 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "ERA-3AEB7322V"
 			(at 130.81 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DN" "P73.2KDBCT-ND"
 			(at 130.81 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Panasonic Electronic Components"
 			(at 130.81 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "price" ".1"
 			(at 132.08 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "491b5dcd-377e-4113-a68d-5febfbcb474a")
+			(uuid "e047b9d2-86ff-4cad-9b27-a094f179544e")
 		)
 		(pin "2"
-			(uuid "8dd80594-f710-4613-928e-ae756cb0562a")
-		)
-		(instances
-			(project ""
-				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Capacitors:1206_uF10")
-		(at 99.06 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73b43f51-3cc4-4093-bdf6-ac582ce79340")
-		(property "Reference" "C281"
-			(at 96.52 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 96.52 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 97.282 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
-			(at 92.71 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X5R 1206 (3216 Metric)"
-			(at 93.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRT31CR61H106KE01L"
-			(at 99.06 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DN" "490-12456-1-ND"
-			(at 99.06 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Murata Electronics"
-			(at 99.06 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".388"
-			(at 99.06 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3222354a-3501-4233-a924-17d4fdf9ebeb")
-		)
-		(pin "1"
-			(uuid "577e201d-46c5-448d-9b41-1b1f0d9e12fc")
+			(uuid "0fe88119-6ff0-41b8-979f-f7dabdb2833e")
 		)
 		(instances
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "C281")
+					(reference "RB5")
 					(unit 1)
 				)
 			)
@@ -9868,23 +9311,29 @@
 		(lib_id "power:GND")
 		(at 58.42 76.2 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74666908-666c-4cde-9d03-d26b50a56c4c")
 		(property "Reference" "#PWR0298"
 			(at 58.42 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 58.42 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9893,33 +9342,39 @@
 		)
 		(property "Footprint" ""
 			(at 58.42 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 58.42 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 58.42 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "18ab4392-8ac1-4893-a4a4-028441b74710")
+			(uuid "fe7b8a45-b7f5-4f2d-984e-fd5ee70821ae")
 		)
 		(instances
 			(project "Microwave_Beamer"
@@ -9934,13 +9389,17 @@
 		(lib_id "Capacitors:1206_uF10")
 		(at 170.18 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "872c7f77-45fa-4911-8b66-059ef4aacdd1")
 		(property "Reference" "CB10"
 			(at 170.18 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9950,6 +9409,8 @@
 		)
 		(property "Value" "10uF"
 			(at 170.18 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9959,72 +9420,86 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 168.402 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
 			(at 163.83 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X5R 1206 (3216 Metric)"
 			(at 165.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "GRT31CR61H106KE01L"
 			(at 170.18 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DN" "490-12456-1-ND"
 			(at 170.18 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Murata Electronics"
 			(at 170.18 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "price" ".388"
 			(at 170.18 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "f9fe667b-7933-4b6c-b929-0c1975423df2")
+			(uuid "8107c4a8-bf07-4401-8e58-dcac754ff3fd")
 		)
 		(pin "2"
-			(uuid "1985c844-65af-4742-b45e-64a33d60fb3b")
+			(uuid "06143810-0190-41db-a883-f49289bf90ef")
 		)
 		(instances
 			(project "Microwave_Beamer"
@@ -10039,13 +9514,17 @@
 		(lib_id "Capacitors:1206_uF10")
 		(at 45.72 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "88508178-25ac-4a5e-a785-138bf10c9fb6")
 		(property "Reference" "CB3"
 			(at 45.72 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10055,6 +9534,8 @@
 		)
 		(property "Value" "10uF"
 			(at 45.72 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10064,72 +9545,86 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 43.942 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
 			(at 39.37 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X5R 1206 (3216 Metric)"
 			(at 40.64 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "GRT31CR61H106KE01L"
 			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DN" "490-12456-1-ND"
 			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Murata Electronics"
 			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "price" ".388"
 			(at 45.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "2adc833f-f5de-4a49-a9db-fbb6772ec0e2")
+			(uuid "46a33079-22b1-4195-b29e-eda2761c082f")
 		)
 		(pin "2"
-			(uuid "631a4414-e770-490f-8b72-a8e7574cc7f7")
+			(uuid "e98a8418-00fe-4f0f-96b8-7f1689e77117")
 		)
 		(instances
 			(project "Microwave_Beamer"
@@ -10144,13 +9639,17 @@
 		(lib_id "Capacitors:1206_uF10")
 		(at 162.56 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d320112-28e9-4ded-9852-e1081fb4abc9")
 		(property "Reference" "CB9"
 			(at 162.56 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10160,6 +9659,8 @@
 		)
 		(property "Value" "10uF"
 			(at 162.56 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10169,72 +9670,86 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 160.782 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
 			(at 156.21 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X5R 1206 (3216 Metric)"
 			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "GRT31CR61H106KE01L"
 			(at 162.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DN" "490-12456-1-ND"
 			(at 162.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Murata Electronics"
 			(at 162.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "price" ".388"
 			(at 162.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "8bda4ece-8a71-4126-b429-20b2535231c2")
+			(uuid "5723cf8e-90ae-4d34-8a78-edbc96be817f")
 		)
 		(pin "2"
-			(uuid "89e13ab1-b960-4489-b05b-db819b9459e5")
+			(uuid "c1386165-281a-40d8-a7b9-0ca78045f1c1")
 		)
 		(instances
 			(project "Microwave_Beamer"
@@ -10249,161 +9764,113 @@
 		(lib_id "Inductors:WE-XHMI_7070")
 		(at 137.16 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2e2af37-27fd-4506-918d-6e4a320e232f")
 		(property "Reference" "L1"
 			(at 136.1579 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WE-XHMI_7070"
+		(property "Value" "74439387033"
 			(at 137.16 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Inductors:WE-XHMI_7070"
 			(at 137.16 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 137.16 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "3.3 µH Shielded Molded Inductor 18.2 A 8.76mOhm Max Nonstandard"
 			(at 137.16 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DN" "732-74439387033CT-ND"
 			(at 137.16 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "74439387033"
 			(at 137.16 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Würth Elektronik"
 			(at 137.16 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "d25bbd6e-dd1c-4f0b-ab83-defc9a456e76")
+			(uuid "888781dd-13cf-4989-8d35-3678a014a267")
 		)
 		(pin "2"
-			(uuid "b270ce97-28a1-4ade-ac68-5e06f964b238")
-		)
-		(instances
-			(project ""
-				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a75a659e-14b5-417f-bcb7-e6d3fb355389")
-		(property "Reference" "#PWR0308"
-			(at 99.06 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2bab795c-5f7e-44f7-92d4-0cb7173dbc5d")
+			(uuid "2ba87917-42a4-4944-a436-995f40f6c3c5")
 		)
 		(instances
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "#PWR0308")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -10413,13 +9880,17 @@
 		(lib_id "Capacitors:1206_uF10")
 		(at 35.56 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a82ad425-e12f-4320-91b6-6e9f64f3d8b5")
 		(property "Reference" "CB1"
 			(at 35.56 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10429,6 +9900,8 @@
 		)
 		(property "Value" "10uF"
 			(at 35.56 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10438,72 +9911,86 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 33.782 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
 			(at 29.21 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X5R 1206 (3216 Metric)"
 			(at 30.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "GRT31CR61H106KE01L"
 			(at 35.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DN" "490-12456-1-ND"
 			(at 35.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Murata Electronics"
 			(at 35.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "price" ".388"
 			(at 35.56 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "9d4e5bd0-e9f3-4a17-8abd-493e3550c8ce")
+			(uuid "43d6b54f-434c-47dd-a9cc-7c4093e59810")
 		)
 		(pin "2"
-			(uuid "9b6f3ca6-c6fe-47ca-ba24-daa6b7e27bd9")
+			(uuid "3da97935-828e-41da-b54a-1811d318fd15")
 		)
 		(instances
 			(project "Microwave_Beamer"
@@ -10515,441 +10002,32 @@
 		)
 	)
 	(symbol
-		(lib_id "DCDC:AP7361-33E-13")
-		(at 58.42 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8a426ce-eb43-4516-b310-872e72eebfa9")
-		(property "Reference" "U51"
-			(at 74.93 127 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AP7361-33E-13"
-			(at 74.93 129.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DCDC:SOT-223_DIO"
-			(at 71.12 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC REG LINEAR 3.3V 1A SOT-223-3"
-			(at 68.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "AP7361-33E-13"
-			(at 66.04 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DN" "AP7361-33E-13DICT-ND"
-			(at 68.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Diodes Incorporated"
-			(at 68.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "cost" ".48"
-			(at 66.04 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dd441739-5122-4b1e-a844-f4f020a8bfd6")
-		)
-		(pin "3"
-			(uuid "5908879a-3cce-4675-991b-17f4b84e5af7")
-		)
-		(pin "4"
-			(uuid "34e38333-a1e5-44a2-ad05-6719ad23223f")
-		)
-		(pin "1"
-			(uuid "8db3cf4c-9e06-473c-96be-d114edd376e3")
-		)
-		(instances
-			(project ""
-				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "U51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 50.8 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac7c98c7-9f9a-4535-8454-8b25f6ed834a")
-		(property "Reference" "#PWR0306"
-			(at 50.8 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 50.8 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 50.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64292ddd-8c78-41f1-829b-b3acd202641d")
-		)
-		(instances
-			(project "Microwave_Beamer"
-				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "#PWR0306")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 180.34 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af71ea61-41d0-4de7-9272-b5c3a5a15f0c")
-		(property "Reference" "#PWR0305"
-			(at 180.34 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 180.34 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 180.34 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b595210-12c9-45d8-9957-8035a9748e4c")
-		)
-		(instances
-			(project ""
-				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "#PWR0305")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Capacitors:1206_uF10")
-		(at 50.8 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1760a77-83ba-4946-af75-4aefa2f96b3a")
-		(property "Reference" "C280"
-			(at 53.34 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 53.34 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 49.022 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
-			(at 44.45 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X5R 1206 (3216 Metric)"
-			(at 45.72 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRT31CR61H106KE01L"
-			(at 50.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DN" "490-12456-1-ND"
-			(at 50.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Murata Electronics"
-			(at 50.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" ".388"
-			(at 50.8 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fdc277ec-7937-40d0-950c-d28b6ce5cce6")
-		)
-		(pin "1"
-			(uuid "0a7fe3fa-774c-4bd7-8386-584bbcf79330")
-		)
-		(instances
-			(project ""
-				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "C280")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 48.26 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b21a9ca8-5d18-4c31-b983-150801097dd4")
-		(property "Reference" "#PWR0311"
-			(at 48.26 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 48.26 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 48.26 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ac21842-c2c1-470f-b4fe-4b238d92f514")
-		)
-		(instances
-			(project "Microwave_Beamer"
-				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "#PWR0311")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 71.12 91.44 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b357369d-d706-4504-ae1e-eec6bbe506f6")
 		(property "Reference" "#PWR0299"
 			(at 71.12 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 71.12 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10958,33 +10036,39 @@
 		)
 		(property "Footprint" ""
 			(at 71.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 71.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 71.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "b5ed5b99-f3fe-4b0b-87b4-a1991cb341b1")
+			(uuid "2ad3f518-5701-46dd-af7b-006a8c6e0d47")
 		)
 		(instances
 			(project "Microwave_Beamer"
@@ -10999,13 +10083,17 @@
 		(lib_id "Capacitors:1206_uF10")
 		(at 154.94 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfd13172-037d-4170-8e81-7d2a97fca91a")
 		(property "Reference" "CB8"
 			(at 154.94 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11015,6 +10103,8 @@
 		)
 		(property "Value" "10uF"
 			(at 154.94 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11024,72 +10114,86 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 153.162 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
 			(at 148.59 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X5R 1206 (3216 Metric)"
 			(at 149.86 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "GRT31CR61H106KE01L"
 			(at 154.94 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DN" "490-12456-1-ND"
 			(at 154.94 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Murata Electronics"
 			(at 154.94 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "price" ".388"
 			(at 154.94 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "1ff8df34-971c-491d-b35e-aecc4019e694")
+			(uuid "5f6e670d-3a58-4ce3-884b-25377b0a2e7f")
 		)
 		(pin "2"
-			(uuid "992268cf-8650-40bf-b217-d70aa2f96051")
+			(uuid "d818c02a-f2ca-4de2-a322-c44054e5b24a")
 		)
 		(instances
 			(project "Microwave_Beamer"
@@ -11104,22 +10208,28 @@
 		(lib_id "power:GND")
 		(at 81.28 78.74 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2adbd4a-a320-48d4-8c58-bcf7b741a2d3")
 		(property "Reference" "#PWR0301"
 			(at 81.28 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 76.2 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11128,33 +10238,39 @@
 		)
 		(property "Footprint" ""
 			(at 81.28 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 81.28 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 81.28 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "0907be36-6dcc-4049-999d-cec069a6b0e3")
+			(uuid "915c6768-ea67-4023-956a-a440af6c6465")
 		)
 		(instances
 			(project "Microwave_Beamer"
@@ -11169,13 +10285,17 @@
 		(lib_id "Capacitors:0603_nf100")
 		(at 58.42 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6e12bc0-074b-4ebc-96fd-a05a138cc921")
 		(property "Reference" "CB4"
-			(at 50.8 71.12 0)
+			(at 52.07 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11184,7 +10304,9 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 50.8 73.66 0)
+			(at 52.07 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11194,72 +10316,86 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 56.642 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 52.07 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 53.34 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "GCJ188R71H104KA12D"
 			(at 58.42 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DN" "490-5798-1-ND"
 			(at 58.42 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Murata Electronics"
 			(at 58.42 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "price" ".10"
 			(at 58.42 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "67bb48a9-a0dd-4fdd-8d36-80516b93c7a2")
+			(uuid "e42f5685-fc17-4bb0-a0ab-eb1d11100d19")
 		)
 		(pin "1"
-			(uuid "94ccf76b-9592-4ccb-941c-9af41cc90561")
+			(uuid "43f8bf44-0927-4b65-b6a4-773391704829")
 		)
 		(instances
 			(project "Microwave_Beamer"
@@ -11271,148 +10407,20 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 93.98 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cda4b611-4573-41d7-826b-3957e318fc4d")
-		(property "Reference" "#PWR0310"
-			(at 93.98 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "2.85VREF"
-			(at 93.98 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 93.98 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59df724c-8520-4d56-a4af-432acf5874e2")
-		)
-		(instances
-			(project "Microwave_Beamer"
-				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "#PWR0310")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 109.22 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf10da33-9743-4c0c-af51-9d20559abf1a")
-		(property "Reference" "#PWR0309"
-			(at 109.22 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 109.22 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 109.22 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e16d061e-3e8d-449b-8773-092d6c07b873")
-		)
-		(instances
-			(project "Microwave_Beamer"
-				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "#PWR0309")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Capacitors:0603_nf100")
 		(at 71.12 83.82 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4de0abf-af44-475b-b3aa-07f07d1bf777")
 		(property "Reference" "CB5"
 			(at 63.5 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11422,6 +10430,8 @@
 		)
 		(property "Value" "100nF"
 			(at 63.5 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11431,72 +10441,86 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 69.342 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 64.77 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 66.04 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "GCJ188R71H104KA12D"
 			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DN" "490-5798-1-ND"
 			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Murata Electronics"
 			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "price" ".10"
 			(at 71.12 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "545511ea-bc04-4888-b9e2-f5b26b92c0a4")
+			(uuid "fccadf4e-3092-4ec1-937b-919effe1cd95")
 		)
 		(pin "1"
-			(uuid "51f0a79d-a6ca-466f-b492-a3ad788f5fc1")
+			(uuid "8ac23090-2c7b-4c55-9167-dcdd826c7420")
 		)
 		(instances
 			(project "Microwave_Beamer"
@@ -11511,13 +10535,17 @@
 		(lib_id "Capacitors:1206_uF10")
 		(at 40.64 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5345b23-ca59-4bbd-8c54-1e307afd2d5e")
 		(property "Reference" "CB2"
 			(at 40.64 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11527,6 +10555,8 @@
 		)
 		(property "Value" "10uF"
 			(at 40.64 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11536,72 +10566,86 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 38.862 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
 			(at 34.29 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10 µF ±10% 50V Ceramic Capacitor X5R 1206 (3216 Metric)"
 			(at 35.56 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "GRT31CR61H106KE01L"
 			(at 40.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DN" "490-12456-1-ND"
 			(at 40.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Murata Electronics"
 			(at 40.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "price" ".388"
 			(at 40.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "c8a13d4a-3621-4976-9b5e-bbc58e9c6a0e")
+			(uuid "100aecd4-8a8c-4e59-a68d-45d2f1ccbf61")
 		)
 		(pin "2"
-			(uuid "f977a850-5c38-4a8d-8e6a-46f18f9534fa")
+			(uuid "a8515d30-f8d1-4c77-addf-32f5cf53e2ad")
 		)
 		(instances
 			(project "Microwave_Beamer"
@@ -11613,25 +10657,144 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors:0603_R_73K2")
-		(at 73.66 71.12 90)
-		(mirror x)
+		(lib_id "Capacitors:0402_pF_100_50V")
+		(at 127 78.74 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(uuid "fc6e19e2-b0d5-4cde-9aea-7909f44e0096")
-		(property "Reference" "R43"
-			(at 73.66 68.58 90)
+		(uuid "e3ede127-47f2-4c5b-bd4d-6b809062d452")
+		(property "Reference" "CB11"
+			(at 137.16 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF"
+			(at 129.54 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 119.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "73.2K"
-			(at 76.2 73.66 90)
+		(property "Datasheet" ""
+			(at 123.825 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 119.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCH1555C1H101JE01"
+			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-GCM1555C1H102GA16JCT-ND"
+			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRF" "835MHz"
+			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b5ff7ba5-6e7a-4955-9bd2-e8f3c5c5c6c2")
+		)
+		(pin "1"
+			(uuid "00ee2592-c415-4df7-98e1-49b47452c0d1")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
+					(reference "CB11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors:0603_R_73K2")
+		(at 73.66 71.12 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc6e19e2-b0d5-4cde-9aea-7909f44e0096")
+		(property "Reference" "RB1"
+			(at 73.66 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "73K2"
+			(at 77.47 71.12 90)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11642,77 +10805,91 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 69.215 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "73.2 kOhms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thin Film"
 			(at 72.39 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "ERA-3AEB7322V"
 			(at 74.93 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DN" "P73.2KDBCT-ND"
 			(at 74.93 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Panasonic Electronic Components"
 			(at 74.93 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "price" ".1"
 			(at 73.66 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "ef08827d-20e8-45a4-b736-3994fb4d4730")
+			(uuid "62a40cf3-f1bc-461f-aa47-6d67fe1cdacb")
 		)
 		(pin "2"
-			(uuid "f494382b-4987-4985-acbd-b45189e31fb8")
+			(uuid "3b15ae75-c721-4119-b1ad-0484288fcc71")
 		)
 		(instances
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/a3b339d3-61a3-4c3b-bef1-c2ddd77d339e"
-					(reference "R43")
+					(reference "RB1")
 					(unit 1)
 				)
 			)

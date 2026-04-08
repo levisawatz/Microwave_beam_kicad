@@ -1,13 +1,25 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "ad73927f-6a9e-4896-911a-12c181d87976")
 	(paper "A4")
 	(lib_symbols)
+	(no_connect
+		(at 208.28 68.58)
+		(uuid "48ff25b7-6405-48a8-a201-f6916fe25dd0")
+	)
+	(no_connect
+		(at 208.28 93.98)
+		(uuid "bcaa8b9c-eff3-4894-bd26-6f5cabeff0ae")
+	)
+	(no_connect
+		(at 208.28 43.18)
+		(uuid "cacae503-eb16-4500-b018-f1cfb4b67f13")
+	)
 	(wire
 		(pts
-			(xy 185.42 83.82) (xy 162.56 83.82)
+			(xy 185.42 91.44) (xy 162.56 91.44)
 		)
 		(stroke
 			(width 0)
@@ -37,13 +49,33 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 63.5) (xy 162.56 71.12)
+			(xy 162.56 66.04) (xy 162.56 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3cef3e4f-3788-4a6f-9939-f5ac9cbb4bdd")
+	)
+	(wire
+		(pts
+			(xy 210.82 78.74) (xy 208.28 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "421ca118-d511-44da-94fb-9ee745417cb7")
+	)
+	(wire
+		(pts
+			(xy 210.82 106.68) (xy 208.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6c95e2-c381-498b-a685-a38298a54c62")
 	)
 	(wire
 		(pts
@@ -77,7 +109,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 43.18) (xy 152.4 66.04)
+			(xy 152.4 40.64) (xy 152.4 66.04)
 		)
 		(stroke
 			(width 0)
@@ -87,13 +119,33 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 63.5) (xy 162.56 63.5)
+			(xy 101.6 60.96) (xy 91.44 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff0985b-d403-4c2c-a127-9d4bdc4c7bc9")
+	)
+	(wire
+		(pts
+			(xy 185.42 66.04) (xy 162.56 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7405a31c-a276-48de-a21d-6adb41f49790")
+	)
+	(wire
+		(pts
+			(xy 210.82 66.04) (xy 208.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7565125d-dd63-46e3-88f6-7e2e6dcc8157")
 	)
 	(wire
 		(pts
@@ -107,13 +159,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 78.74) (xy 157.48 93.98)
+			(xy 157.48 78.74) (xy 157.48 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "82ec1046-334a-415c-9507-6f7664f927f9")
+	)
+	(wire
+		(pts
+			(xy 210.82 53.34) (xy 208.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc99ec9-741c-4266-bc6b-ba57e9bbd8d2")
 	)
 	(wire
 		(pts
@@ -127,7 +189,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 73.66) (xy 185.42 73.66)
+			(xy 167.64 78.74) (xy 185.42 78.74)
 		)
 		(stroke
 			(width 0)
@@ -137,7 +199,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 185.42 93.98)
+			(xy 210.82 40.64) (xy 208.28 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1bce719-0a01-4602-90f7-28892acdd799")
+	)
+	(wire
+		(pts
+			(xy 157.48 106.68) (xy 185.42 106.68)
 		)
 		(stroke
 			(width 0)
@@ -147,7 +219,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 83.82) (xy 162.56 76.2)
+			(xy 162.56 91.44) (xy 162.56 76.2)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +229,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 43.18) (xy 152.4 43.18)
+			(xy 185.42 40.64) (xy 152.4 40.64)
 		)
 		(stroke
 			(width 0)
@@ -175,8 +247,38 @@
 		)
 		(uuid "dc021808-85d4-4055-b260-99663842fb8d")
 	)
+	(wire
+		(pts
+			(xy 167.64 73.66) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9fc982-16ee-4c68-b60b-4993325598b8")
+	)
+	(wire
+		(pts
+			(xy 167.64 78.74) (xy 167.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07d9c9c-a611-400c-a6bd-4d5421ce3a61")
+	)
+	(wire
+		(pts
+			(xy 210.82 91.44) (xy 208.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f6edc7-03c3-42e2-a43c-336b17eea974")
+	)
 	(label "Antenna_5"
-		(at 198.12 86.36 0)
+		(at 210.82 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -185,8 +287,18 @@
 		)
 		(uuid "2216d479-9b7b-4513-bfa2-1bcf36b7c5b2")
 	)
+	(label "VCC"
+		(at 185.42 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ee27b5d-8a90-4ae7-8b86-a0a457c76124")
+	)
 	(label "Antenna_6"
-		(at 198.12 96.52 0)
+		(at 210.82 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -195,8 +307,28 @@
 		)
 		(uuid "666c5b8d-be2a-496d-b5de-7364bf005f7d")
 	)
+	(label "VCC"
+		(at 185.42 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66e1737f-c130-424a-9977-f72b14efc340")
+	)
+	(label "VCC"
+		(at 185.42 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68147864-5977-4260-bd64-152fdb0fe8a3")
+	)
 	(label "Antenna_3"
-		(at 198.12 66.04 0)
+		(at 210.82 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -205,8 +337,18 @@
 		)
 		(uuid "6dd161a7-e645-4c10-a357-ad4f11cdbd3b")
 	)
+	(label "VCC"
+		(at 185.4066 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a30c7e8-4210-4d6a-a143-bcaedaa5c461")
+	)
 	(label "Antenna_1"
-		(at 198.12 45.72 0)
+		(at 210.82 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -216,7 +358,7 @@
 		(uuid "a3e268a6-b040-4e5f-9aa5-7e2c02b5dcd6")
 	)
 	(label "Antenna_4"
-		(at 198.12 76.2 0)
+		(at 210.82 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -225,8 +367,18 @@
 		)
 		(uuid "c38cd87b-fd2e-45a8-a92a-11c884878f77")
 	)
+	(label "VCC"
+		(at 101.6 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd5c9aee-d651-4b27-9fe9-1cb0d6e081b1")
+	)
 	(label "Antenna_2"
-		(at 198.12 55.88 0)
+		(at 210.82 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -234,6 +386,26 @@
 			(justify left bottom)
 		)
 		(uuid "ecc07563-1d43-4f73-8435-8a48728452cf")
+	)
+	(label "VCC"
+		(at 185.42 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7af91d9-f992-428f-a526-275941821599")
+	)
+	(label "VCC"
+		(at 185.42 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc333623-d653-4f4f-a8d8-7046753e2a07")
 	)
 	(hierarchical_label "IN"
 		(shape input)
@@ -246,9 +418,20 @@
 		)
 		(uuid "4a135d53-b295-4df1-930a-624e107cd966")
 	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 91.44 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9280b8f7-4de7-4681-862b-9b8ffe43fb41")
+	)
 	(sheet
-		(at 185.42 71.12)
-		(size 12.7 7.62)
+		(at 185.42 73.66)
+		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -258,11 +441,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0d8229df-53af-4bf0-bfe6-fcdf402dbe2a")
 		(property "Sheetname" "POWER AMP4"
-			(at 185.42 71.12 0)
+			(at 185.42 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,17 +456,19 @@
 			)
 		)
 		(property "Sheetfile" "POWER_AMP2.kicad_sch"
-			(at 181.61 66.294 0)
+			(at 181.61 68.834 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "RF_IN" input
-			(at 185.42 73.66 180)
+			(at 185.42 78.74 180)
 			(uuid "6002a17a-562e-4cc3-b62d-22f2933cc91b")
 			(effects
 				(font
@@ -291,13 +478,23 @@
 			)
 		)
 		(pin "RF_OUT" input
-			(at 198.12 76.2 0)
+			(at 208.28 78.74 0)
 			(uuid "65830693-e37d-4a9d-9b23-fc08a1986b8c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 185.42 76.2 180)
+			(uuid "776fe0eb-8201-4461-adc0-879495d54747")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -324,8 +521,8 @@
 		)
 	)
 	(sheet
-		(at 185.42 40.64)
-		(size 12.7 7.62)
+		(at 185.42 35.56)
+		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -335,11 +532,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "26da86d1-b637-49f6-80d0-4f18bf475f2c")
 		(property "Sheetname" "POWER AMP1"
-			(at 185.42 40.64 0)
+			(at 185.42 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -348,17 +547,19 @@
 			)
 		)
 		(property "Sheetfile" "POWER_AMP.kicad_sch"
-			(at 181.61 35.814 0)
+			(at 181.61 30.734 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "RF_IN" input
-			(at 185.42 43.18 180)
+			(at 185.42 40.64 180)
 			(uuid "8021a38f-ece9-4a68-bbe4-9e2007be1e99")
 			(effects
 				(font
@@ -367,14 +568,34 @@
 				(justify left)
 			)
 		)
-		(pin "RF_OUT" input
-			(at 198.12 45.72 0)
-			(uuid "1c0f3ea4-b011-4801-af9e-0eb32a1e434d")
+		(pin "power detect" output
+			(at 208.28 43.18 0)
+			(uuid "43f1eb39-2d4d-4ee6-b506-686c9c54ab0c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "RF_OUT" output
+			(at 208.28 40.64 0)
+			(uuid "a78302cd-93bb-4030-9b5d-c92c27e1e1c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 185.42 38.1 180)
+			(uuid "61626819-a5b3-4b8a-bc9a-2a72b6a10f81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -413,11 +634,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "47290953-f9b2-4fad-8118-bbcf5fff7ebe")
 		(property "Sheetname" "FANFAN A"
 			(at 114.3 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -427,6 +650,8 @@
 		)
 		(property "Sheetfile" "FANFAN.kicad_sch"
 			(at 114.3 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -517,7 +742,7 @@
 	)
 	(sheet
 		(at 185.42 60.96)
-		(size 12.7 7.62)
+		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -527,11 +752,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "5e1b8bbb-a09f-4100-864d-414a91ea6967")
 		(property "Sheetname" "POWER AMP3"
 			(at 185.42 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,16 +768,18 @@
 		)
 		(property "Sheetfile" "POWER_AMP.kicad_sch"
 			(at 181.61 56.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "RF_IN" input
-			(at 185.42 63.5 180)
+			(at 185.42 66.04 180)
 			(uuid "19c77090-9db5-4a05-b57a-52791a336510")
 			(effects
 				(font
@@ -559,9 +788,29 @@
 				(justify left)
 			)
 		)
-		(pin "RF_OUT" input
-			(at 198.12 66.04 0)
-			(uuid "fb4bf0d0-93fc-4604-a288-ae32d9896110")
+		(pin "power detect" output
+			(at 208.28 68.58 0)
+			(uuid "f5ae6136-e570-42d5-97a3-7333b30a166d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 185.42 63.5 180)
+			(uuid "60d4590f-e8bf-4c23-8091-a2b8f19c9ebb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_OUT" output
+			(at 208.28 66.04 0)
+			(uuid "4253f396-1045-42a1-b7bc-6e6e3d74b2da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -593,8 +842,8 @@
 		)
 	)
 	(sheet
-		(at 185.42 50.8)
-		(size 12.7 7.62)
+		(at 185.42 48.26)
+		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -604,11 +853,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8efa0285-5358-4708-9fc5-7c0d501c6f03")
 		(property "Sheetname" "POWER AMP2"
-			(at 185.42 50.8 0)
+			(at 185.42 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -617,13 +868,15 @@
 			)
 		)
 		(property "Sheetfile" "POWER_AMP2.kicad_sch"
-			(at 181.61 45.974 0)
+			(at 181.61 43.434 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "RF_IN" input
@@ -637,13 +890,23 @@
 			)
 		)
 		(pin "RF_OUT" input
-			(at 198.12 55.88 0)
+			(at 208.28 53.34 0)
 			(uuid "3d879ccd-5a11-402f-962a-f99a0e302071")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 185.42 50.8 180)
+			(uuid "71537663-eb19-4051-bf21-a0dc4711f0c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -670,8 +933,8 @@
 		)
 	)
 	(sheet
-		(at 185.42 91.44)
-		(size 12.7 7.62)
+		(at 185.42 101.6)
+		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -681,11 +944,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d4c1f3bf-ee2d-4a3a-b85e-720a08bb855b")
 		(property "Sheetname" "POWER AMP6"
-			(at 185.42 91.44 0)
+			(at 185.42 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -694,17 +959,19 @@
 			)
 		)
 		(property "Sheetfile" "POWER_AMP2.kicad_sch"
-			(at 181.61 86.614 0)
+			(at 181.61 96.774 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "RF_IN" input
-			(at 185.42 93.98 180)
+			(at 185.42 106.68 180)
 			(uuid "fe6ad232-8fd2-4388-8790-567f455c23a7")
 			(effects
 				(font
@@ -714,13 +981,23 @@
 			)
 		)
 		(pin "RF_OUT" input
-			(at 198.12 96.52 0)
+			(at 208.28 106.68 0)
 			(uuid "6911e386-6aa8-4eff-80e0-c8c2790a9d31")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 185.42 104.14 180)
+			(uuid "944d5b09-f6d5-4aeb-aa11-e4d8e4836c7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -747,8 +1024,8 @@
 		)
 	)
 	(sheet
-		(at 185.42 81.28)
-		(size 12.7 7.62)
+		(at 185.42 86.36)
+		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -758,11 +1035,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e733fc34-a8b4-4bda-9902-6ea3db870834")
 		(property "Sheetname" "POWER AMP5"
-			(at 185.42 81.28 0)
+			(at 185.42 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -771,17 +1050,19 @@
 			)
 		)
 		(property "Sheetfile" "POWER_AMP.kicad_sch"
-			(at 181.61 76.454 0)
+			(at 181.61 81.534 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "RF_IN" input
-			(at 185.42 83.82 180)
+			(at 185.42 91.44 180)
 			(uuid "7df3def9-421b-4a57-8532-128910321dab")
 			(effects
 				(font
@@ -790,9 +1071,29 @@
 				(justify left)
 			)
 		)
-		(pin "RF_OUT" input
-			(at 198.12 86.36 0)
-			(uuid "e960ee79-a42b-45a5-8f87-fb06f81cfdbd")
+		(pin "power detect" output
+			(at 208.28 93.98 0)
+			(uuid "8a57c656-23f1-4b59-a23c-9d4e76507ae1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC" input
+			(at 185.42 88.9 180)
+			(uuid "6f4b15bc-4f3b-4dbb-ac09-9c709605f7b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_OUT" output
+			(at 208.28 91.44 0)
+			(uuid "0d27c84f-fb3d-4da3-9d29-9ccb5eaab3e9")
 			(effects
 				(font
 					(size 1.27 1.27)
