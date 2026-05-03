@@ -10,10 +10,6 @@
 		(uuid "48ff25b7-6405-48a8-a201-f6916fe25dd0")
 	)
 	(no_connect
-		(at 208.28 93.98)
-		(uuid "bcaa8b9c-eff3-4894-bd26-6f5cabeff0ae")
-	)
-	(no_connect
 		(at 208.28 43.18)
 		(uuid "cacae503-eb16-4500-b018-f1cfb4b67f13")
 	)
@@ -406,6 +402,54 @@
 			(justify right bottom)
 		)
 		(uuid "fc333623-d653-4f4f-a8d8-7046753e2a07")
+	)
+	(global_label "Stage_2_power"
+		(shape input)
+		(at 208.28 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52e11d18-8bcf-47c7-9793-d999af09cac0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.235 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Stage_2_power"
+		(shape input)
+		(at 350.52 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64267b6a-85be-44d8-a0a9-01526c0697cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.475 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "IN"
 		(shape input)
