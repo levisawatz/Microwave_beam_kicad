@@ -261,6 +261,17 @@
 					)
 				)
 			)
+			(property "price" ".04"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(show_name no)
@@ -1091,6 +1102,17 @@
 				)
 			)
 		)
+		(property "price" ".04"
+			(at 144.78 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5512f631-2e8b-438e-9eef-90fcd2f01eab")
 		)
@@ -1226,6 +1248,17 @@
 				)
 			)
 		)
+		(property "price" ".04"
+			(at 119.38 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a2e96db-6bf7-436d-a8e6-abd74c79641f")
 		)
@@ -1352,6 +1385,17 @@
 		)
 		(property "MFR" "Panasonic Electronic Components"
 			(at 139.7 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".04"
+			(at 144.78 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1689,6 +1733,17 @@
 		)
 		(property "MFR" "Panasonic Electronic Components"
 			(at 114.3 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".04"
+			(at 119.38 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2249,6 +2304,17 @@
 				)
 			)
 		)
+		(property "price" ".04"
+			(at 144.78 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4d040e5-2068-4d8a-a6ab-1cec7c45bf4b")
 		)
@@ -2375,6 +2441,17 @@
 		)
 		(property "MFR" "Panasonic Electronic Components"
 			(at 149.86 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".04"
+			(at 154.94 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2614,6 +2691,17 @@
 		)
 		(property "MFR" "Panasonic Electronic Components"
 			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".04"
+			(at 93.98 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

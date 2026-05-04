@@ -3,5 +3,4 @@
 	(lib (name "Logic") (type "KiCad") (uri "${KICAD9_FOOTPRINT_DIR}/Logic.pretty") (options "") (descr ""))
 	(lib (name "Footprints_L") (type "KiCad") (uri "C:/Git_repos/Kicad_projects/Kicad_library_L/Footprints_L.pretty") (options "") (descr ""))
 	(lib (name "Grapgics") (type "KiCad") (uri "${KIPRJMOD}/Grapgics.pretty") (options "") (descr ""))
-	(lib (name "Graphics") (type "KiCad") (uri "${KICAD9_FOOTPRINT_DIR}/Graphics.pretty") (options "") (descr ""))
 )

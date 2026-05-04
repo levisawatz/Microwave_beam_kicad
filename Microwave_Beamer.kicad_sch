@@ -4651,6 +4651,17 @@
 					)
 				)
 			)
+			(property "price" ".04"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(show_name no)
@@ -16359,6 +16370,17 @@
 				)
 			)
 		)
+		(property "price" ".04"
+			(at 144.78 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c6250110-9ef5-4dc4-8d96-ed72424a9c6c")
 		)
@@ -19814,6 +19836,17 @@
 				)
 			)
 		)
+		(property "price" ".04"
+			(at 241.3 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7758c9a6-0d8b-4898-b466-e5a0160d69aa")
 		)
@@ -19996,6 +20029,17 @@
 		)
 		(property "MFR" "Panasonic Electronic Components"
 			(at 240.03 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".04"
+			(at 245.11 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -662,6 +662,17 @@
 					)
 				)
 			)
+			(property "price" ".04"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(show_name no)
@@ -1466,6 +1477,16 @@
 			(type default)
 		)
 		(uuid "43fa4c22-c3ca-47b7-a7fc-a5e62d4511df")
+	)
+	(wire
+		(pts
+			(xy 255.27 149.86) (xy 256.54 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d28ad83-9700-4203-a981-6fadf5bd513a")
 	)
 	(wire
 		(pts
@@ -4607,6 +4628,17 @@
 				)
 			)
 		)
+		(property "price" ".04"
+			(at 50.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e3aa3d7a-521c-4dee-a50a-4cb9d2c28ce7")
 		)
@@ -4875,6 +4907,17 @@
 		)
 		(property "MFR" "Panasonic Electronic Components"
 			(at 71.12 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".04"
+			(at 76.2 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5983,6 +6026,17 @@
 				)
 			)
 		)
+		(property "price" ".04"
+			(at 76.2 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "37056a7a-14c1-4c99-82c5-27a049dde949")
 		)
@@ -7054,7 +7108,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 256.54 149.86 90)
+		(at 255.27 149.86 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7066,7 +7120,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d710a80-3241-4397-8059-76fa76f624a3")
 		(property "Reference" "#PWR053"
-			(at 260.35 149.86 0)
+			(at 259.08 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7077,7 +7131,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 252.73 149.8599 90)
+			(at 251.46 149.8599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7088,7 +7142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 149.86 0)
+			(at 255.27 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7099,7 +7153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 149.86 0)
+			(at 255.27 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7110,7 +7164,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 256.54 149.86 0)
+			(at 255.27 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8035,6 +8089,17 @@
 				)
 			)
 		)
+		(property "price" ".04"
+			(at 101.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a32c5407-49d5-45dd-a9e6-c78c125a777b")
 		)
@@ -8316,6 +8381,17 @@
 				)
 			)
 		)
+		(property "price" ".04"
+			(at 101.6 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f739ae27-5779-4fcc-91f6-fe3e0fb79e75")
 		)
@@ -8422,6 +8498,17 @@
 		)
 		(property "MFR" "Panasonic Electronic Components"
 			(at 96.52 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".04"
+			(at 101.6 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9445,6 +9532,17 @@
 		)
 		(property "MFR" "Panasonic Electronic Components"
 			(at 71.12 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".04"
+			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

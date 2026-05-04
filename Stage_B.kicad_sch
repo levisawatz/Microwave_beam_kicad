@@ -334,7 +334,7 @@
 		(uuid "6dd161a7-e645-4c10-a357-ad4f11cdbd3b")
 	)
 	(label "VCC"
-		(at 185.4066 63.5 180)
+		(at 185.42 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
