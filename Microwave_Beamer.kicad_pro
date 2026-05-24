@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.74,
-          "width": 0.74
+          "drill": 3.0,
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -130,7 +130,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1016,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -143,7 +143,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.1016,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
@@ -197,8 +197,7 @@
         0.0,
         0.1016,
         0.167,
-        0.34925,
-        0.762
+        0.34925
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -599,6 +598,24 @@
       ],
       "Net-(U6-RFC)": [
         "50 ohm"
+      ],
+      "Net-(W4-Out1)": [
+        "50 ohm"
+      ],
+      "Net-(W4-Out2)": [
+        "50 ohm"
+      ],
+      "Net-(W5-Out1)": [
+        "50 ohm"
+      ],
+      "Net-(W5-Out2)": [
+        "50 ohm"
+      ],
+      "Net-(W6-Out1)": [
+        "50 ohm"
+      ],
+      "Net-(W6-Out2)": [
+        "50 ohm"
       ]
     },
     "netclass_patterns": []
@@ -791,7 +808,7 @@
         "uuid": "3d000777-5a6c-48c2-9bdf-76c34ab20cc7"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C176",
     "variants": []
   },
   "sheets": [

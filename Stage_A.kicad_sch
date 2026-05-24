@@ -5,6 +5,437 @@
 	(uuid "9bc3b2be-ea1e-4f97-9bac-e1cdaa79305c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Capacitors:0402_nF010_50V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.54 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10nF"
+				(at 2.54 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
+				(at -6.35 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+				(at -5.08 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "GCM155R71H103KA55D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DN" "490-4762-1-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR" "Murata Electronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "price" ".02"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402_nF010_50V_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -3.175) (xy 1.27 -3.175)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -4.445) (xy 1.27 -4.445)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.175) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.445) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402_nF010_50V_1_1"
+				(pin passive line
+					(at 0 0 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Capacitors:0402_pF2.2_50V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.54 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2.2pF"
+				(at 2.54 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -6.35 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2.2 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+				(at -5.08 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "GJM1555C1H2R2WB01D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DN" "490-11207-1-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SRF" "5970MHz"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402_pF2.2_50V_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -3.175) (xy 1.27 -3.175)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -4.445) (xy 1.27 -4.445)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.175) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.445) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402_pF2.2_50V_1_1"
+				(pin passive line
+					(at 0 0 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_components:Powersplitter"
 			(pin_numbers
 				(hide yes)
@@ -1173,16 +1604,58 @@
 		(uuid "02cd000d-44b5-4869-87f3-ee411bb575c4")
 	)
 	(junction
+		(at 220.98 -50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ac6e600-2fc0-4fa8-b1d8-f091748e49d4")
+	)
+	(junction
+		(at 177.8 -50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bc09ed2-fcd7-4217-a3e8-48abba8679e8")
+	)
+	(junction
+		(at 187.96 -50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d521625-2b27-4da0-8ab8-56bc5a9b4411")
+	)
+	(junction
 		(at 50.8 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "265f15b0-6fe0-4950-a632-d99063ac7612")
 	)
 	(junction
+		(at 177.8 -43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bcdc835-8c3f-40c0-bb3c-6067faace955")
+	)
+	(junction
 		(at 76.2 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e4f2479-7024-4bc6-bf7b-f6a4a2223207")
+	)
+	(junction
+		(at 200.66 -35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fb466d5-5cb1-4286-a465-21f875e42318")
+	)
+	(junction
+		(at 210.82 -35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "410114ac-70e0-4254-8f87-a69ad28579f0")
+	)
+	(junction
+		(at 167.64 -27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44147d16-9ccb-4af5-8ab6-e9317ff5fc15")
 	)
 	(junction
 		(at 101.6 73.66)
@@ -1197,10 +1670,52 @@
 		(uuid "62dc3030-42af-4a12-9c22-6f52c7fee22b")
 	)
 	(junction
+		(at 187.96 -43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ac9505b-24d1-4ced-8c35-9a7df91ace6a")
+	)
+	(junction
+		(at 187.96 -27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82e0d66a-52fb-473f-a1d6-ea3ed73dbbd0")
+	)
+	(junction
 		(at 76.2 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a74d0eec-3617-4e0f-ab7c-36f7612940b1")
+	)
+	(junction
+		(at 187.96 -35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a850b9ec-110e-41b7-8a04-3d2cbec0ecd1")
+	)
+	(junction
+		(at 220.98 -35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6cdcb29-c63c-44d7-97d2-1bc87c433674")
+	)
+	(junction
+		(at 210.82 -43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c146fa29-7c45-42ce-a9d3-03d5974657b8")
+	)
+	(junction
+		(at 200.66 -27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c75a4778-05a1-4314-908d-41a6b62feae2")
+	)
+	(junction
+		(at 200.66 -50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9a7e899-81cb-4aba-a88e-bda767ea17d0")
 	)
 	(junction
 		(at 101.6 93.98)
@@ -1209,10 +1724,34 @@
 		(uuid "cacba042-e90c-47e6-bda8-6ed6ff129147")
 	)
 	(junction
+		(at 177.8 -35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cae07670-6e30-4990-ba83-2bad135e18c5")
+	)
+	(junction
+		(at 177.8 -27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd978389-3878-4cc5-ab6a-8c221f6ca65c")
+	)
+	(junction
 		(at 101.6 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8fc5400-00fd-4723-ad76-475d2215dff2")
+	)
+	(junction
+		(at 210.82 -50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd61e499-d7be-4c60-9dbb-74962981c34d")
+	)
+	(junction
+		(at 167.64 -43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3f03cd5-7a4c-47b4-aad6-acc59a66c328")
 	)
 	(junction
 		(at 101.6 114.3)
@@ -1225,6 +1764,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7b5254b-187e-4f99-9409-664dbc969739")
+	)
+	(junction
+		(at 200.66 -43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea0e7747-4a92-45a2-bce7-02f9cb6c9de5")
+	)
+	(junction
+		(at 210.82 -27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eff0074a-1265-45fe-a4b5-0965a6c7068c")
 	)
 	(junction
 		(at 76.2 129.54)
@@ -1240,16 +1791,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 53.34) (xy 256.54 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01d9c263-687f-44a9-8376-b832e7af3748")
-	)
-	(wire
-		(pts
 			(xy 139.7 81.28) (xy 139.7 86.36)
 		)
 		(stroke
@@ -1260,13 +1801,33 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 154.94) (xy 256.54 154.94)
+			(xy 228.6 27.94) (xy 243.84 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07769e04-35ae-4dbf-adb9-7b2dc01409bb")
+		(uuid "0638dc4e-62c6-40dc-9cf7-e7e6b4d8a084")
+	)
+	(wire
+		(pts
+			(xy 162.56 -43.18) (xy 167.64 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082561bb-af5a-431d-a0fe-f67d929f919f")
+	)
+	(wire
+		(pts
+			(xy 228.6 129.54) (xy 243.84 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cc5191-2d45-40f2-8914-1099ce9fe0d5")
 	)
 	(wire
 		(pts
@@ -1277,6 +1838,16 @@
 			(type default)
 		)
 		(uuid "0a1e5b24-a523-4052-952a-b44f84f09c18")
+	)
+	(wire
+		(pts
+			(xy 210.82 -43.18) (xy 220.98 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e790413-30aa-43fd-9c3e-109b909b8366")
 	)
 	(wire
 		(pts
@@ -1300,6 +1871,26 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 -27.94) (xy 177.8 -27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18cc7887-cac0-406d-9fc7-d996681027de")
+	)
+	(wire
+		(pts
+			(xy 167.64 -43.18) (xy 177.8 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19284b97-f299-41ab-aab2-892e61291710")
+	)
+	(wire
+		(pts
 			(xy 76.2 116.84) (xy 81.28 116.84)
 		)
 		(stroke
@@ -1307,6 +1898,26 @@
 			(type default)
 		)
 		(uuid "1bd20071-0d07-4da7-9d55-01651fdc5b70")
+	)
+	(wire
+		(pts
+			(xy 177.8 -50.8) (xy 187.96 -50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d275dd8-90af-4e84-8dbe-ba3463ec66e3")
+	)
+	(wire
+		(pts
+			(xy 187.96 -35.56) (xy 200.66 -35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fab2653-16aa-4f9f-82b1-afe83bb4325d")
 	)
 	(wire
 		(pts
@@ -1320,6 +1931,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 -35.56) (xy 210.82 -35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259a0ad9-156f-44d9-8b99-5d0db8adff32")
+	)
+	(wire
+		(pts
 			(xy 50.8 101.6) (xy 48.26 101.6)
 		)
 		(stroke
@@ -1327,6 +1948,16 @@
 			(type default)
 		)
 		(uuid "29ab9273-7930-4670-ba41-873965c68088")
+	)
+	(wire
+		(pts
+			(xy 251.46 78.74) (xy 256.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ef594c-091f-4768-811b-29d3d785dbab")
 	)
 	(wire
 		(pts
@@ -1350,6 +1981,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 53.34) (xy 243.84 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1f2a45-9e06-4d3f-9493-8f2428e75907")
+	)
+	(wire
+		(pts
 			(xy 50.8 124.46) (xy 55.88 124.46)
 		)
 		(stroke
@@ -1367,6 +2008,26 @@
 			(type default)
 		)
 		(uuid "2eb15242-0e99-48d7-8512-bb83391a2a82")
+	)
+	(wire
+		(pts
+			(xy 147.32 157.48) (xy 160.02 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d8052c-ed3a-4aed-8678-3393e6ab98be")
+	)
+	(wire
+		(pts
+			(xy 187.96 -43.18) (xy 200.66 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324caa0d-dcd1-478f-b489-62ad06c0d2eb")
 	)
 	(wire
 		(pts
@@ -1390,6 +2051,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 78.74) (xy 243.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366ddc91-56b9-418a-a1fe-5412f881f880")
+	)
+	(wire
+		(pts
 			(xy 200.66 27.94) (xy 187.96 27.94)
 		)
 		(stroke
@@ -1400,7 +2071,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 55.88) (xy 160.02 55.88)
+			(xy 228.6 104.14) (xy 243.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37434a55-8860-4c0e-8bc8-8729b8c3ab47")
+	)
+	(wire
+		(pts
+			(xy 132.08 55.88) (xy 139.7 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1430,13 +2111,33 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 106.68) (xy 160.02 106.68)
+			(xy 137.16 106.68) (xy 139.7 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3fb1bab7-a458-42e6-b5a7-a5e69070e47b")
+	)
+	(wire
+		(pts
+			(xy 162.56 -27.94) (xy 167.64 -27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40af2df1-f7e9-479c-bac1-1a7f589b6886")
+	)
+	(wire
+		(pts
+			(xy 220.98 -35.56) (xy 226.06 -35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415b4d1b-bf53-4d72-a8ea-1da8f64ec9ba")
 	)
 	(wire
 		(pts
@@ -1460,7 +2161,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 157.48) (xy 160.02 157.48)
+			(xy 124.46 157.48) (xy 139.7 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1477,6 +2178,16 @@
 			(type default)
 		)
 		(uuid "43fa4c22-c3ca-47b7-a7fc-a5e62d4511df")
+	)
+	(wire
+		(pts
+			(xy 167.64 -35.56) (xy 177.8 -35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494427fa-7c15-4b7c-a76a-035fddfdb2c7")
 	)
 	(wire
 		(pts
@@ -1530,6 +2241,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 55.88) (xy 160.02 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e19705-01d8-4e3e-89fd-e36838cf86f6")
+	)
+	(wire
+		(pts
 			(xy 200.66 81.28) (xy 187.96 81.28)
 		)
 		(stroke
@@ -1547,6 +2268,16 @@
 			(type default)
 		)
 		(uuid "5bd5aaf7-d525-4379-939e-440496177604")
+	)
+	(wire
+		(pts
+			(xy 147.32 106.68) (xy 160.02 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1e3edb-83d2-4aee-87a1-3c93542ce2d7")
 	)
 	(wire
 		(pts
@@ -1600,13 +2331,33 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 129.54) (xy 256.54 129.54)
+			(xy 167.64 -50.8) (xy 177.8 -50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7252082f-89a0-4f7b-ad3e-66e7c9f3bae2")
+		(uuid "78852017-18d7-4ee7-a7f2-88d63a504a81")
+	)
+	(wire
+		(pts
+			(xy 228.6 154.94) (xy 243.84 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7898aab2-af3d-48ac-82cc-fe41ee093e51")
+	)
+	(wire
+		(pts
+			(xy 147.32 30.48) (xy 160.02 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a46cf64-df77-408f-97ba-01fe02e73fb9")
 	)
 	(wire
 		(pts
@@ -1617,6 +2368,16 @@
 			(type default)
 		)
 		(uuid "7ab5d7fb-f8b1-4240-b91c-504927b5b86a")
+	)
+	(wire
+		(pts
+			(xy 251.46 104.14) (xy 256.54 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7acac584-89d3-4007-8bc9-15dacfcdb268")
 	)
 	(wire
 		(pts
@@ -1680,13 +2441,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 78.74) (xy 256.54 78.74)
+			(xy 177.8 -35.56) (xy 187.96 -35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9959aec1-e292-4e2d-980b-29b09decc594")
+		(uuid "9607b221-c597-4850-a83f-c4834e12a412")
 	)
 	(wire
 		(pts
@@ -1697,6 +2458,16 @@
 			(type default)
 		)
 		(uuid "9b7f5863-f6dc-4707-bb12-46a5c10fd51c")
+	)
+	(wire
+		(pts
+			(xy 187.96 -50.8) (xy 200.66 -50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e01325d-9609-47c6-b79b-04340b30174a")
 	)
 	(wire
 		(pts
@@ -1717,6 +2488,16 @@
 			(type default)
 		)
 		(uuid "9e683d7b-9480-4848-bcfd-65434fb027d1")
+	)
+	(wire
+		(pts
+			(xy 147.32 81.28) (xy 160.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f8279b6-8400-4873-9420-1b956a5daa56")
 	)
 	(wire
 		(pts
@@ -1750,23 +2531,33 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 27.94) (xy 256.54 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a262be92-59f1-439d-ac8b-cc37ffe5cda4")
-	)
-	(wire
-		(pts
-			(xy 132.08 132.08) (xy 160.02 132.08)
+			(xy 132.08 132.08) (xy 139.7 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a606202d-5300-4dc2-972b-f7612e45cc82")
+	)
+	(wire
+		(pts
+			(xy 251.46 154.94) (xy 256.54 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e15568-14ef-460a-b2e5-ab21b9ad7164")
+	)
+	(wire
+		(pts
+			(xy 147.32 132.08) (xy 160.02 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82e3cbd-ba60-4af4-9abb-62dc5a214682")
 	)
 	(wire
 		(pts
@@ -1787,6 +2578,26 @@
 			(type default)
 		)
 		(uuid "ae9b0500-6ddc-44ad-850b-c44edef2dfd7")
+	)
+	(wire
+		(pts
+			(xy 187.96 -27.94) (xy 200.66 -27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2086438-a03d-4ac6-8113-c312cf80a8d0")
+	)
+	(wire
+		(pts
+			(xy 210.82 -27.94) (xy 220.98 -27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2299ec8-ec9e-4d42-8a44-c2f0d164b5ef")
 	)
 	(wire
 		(pts
@@ -1820,16 +2631,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 81.28) (xy 160.02 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baa77bdc-3136-4089-9701-e50f4804c394")
-	)
-	(wire
-		(pts
 			(xy 76.2 73.66) (xy 73.66 73.66)
 		)
 		(stroke
@@ -1840,6 +2641,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 129.54) (xy 256.54 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be1227fc-f3ae-4d7e-81c5-d0c88be96553")
+	)
+	(wire
+		(pts
 			(xy 101.6 73.66) (xy 132.08 73.66)
 		)
 		(stroke
@@ -1847,6 +2658,16 @@
 			(type default)
 		)
 		(uuid "beca2ff5-379a-4b2d-9821-5153b8afc67f")
+	)
+	(wire
+		(pts
+			(xy 200.66 -27.94) (xy 210.82 -27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7dbb40c-81f1-4e24-8efa-06807c22f836")
 	)
 	(wire
 		(pts
@@ -1880,6 +2701,26 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 -35.56) (xy 220.98 -35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2abd661-82e1-4415-943c-b6937556ee0b")
+	)
+	(wire
+		(pts
+			(xy 177.8 -27.94) (xy 187.96 -27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38fcc2f-40aa-4393-8163-620b82aa7182")
+	)
+	(wire
+		(pts
 			(xy 200.66 76.2) (xy 187.96 76.2)
 		)
 		(stroke
@@ -1887,16 +2728,6 @@
 			(type default)
 		)
 		(uuid "d4d59861-d65f-40a2-a480-9b0bfcf6540e")
-	)
-	(wire
-		(pts
-			(xy 228.6 104.14) (xy 256.54 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6415243-edab-4b00-810f-377ca6b665df")
 	)
 	(wire
 		(pts
@@ -1930,6 +2761,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 -43.18) (xy 210.82 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde5a7fe-3357-4c38-b287-b16d672da049")
+	)
+	(wire
+		(pts
 			(xy 81.28 88.9) (xy 76.2 88.9)
 		)
 		(stroke
@@ -1940,7 +2781,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 30.48) (xy 160.02 30.48)
+			(xy 251.46 27.94) (xy 256.54 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32c934d-d6f7-437f-997e-903868674344")
+	)
+	(wire
+		(pts
+			(xy 124.46 30.48) (xy 139.7 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1960,6 +2811,46 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 -50.8) (xy 220.98 -50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f784e7be-167a-431b-b323-1ef3d878bc10")
+	)
+	(wire
+		(pts
+			(xy 200.66 -50.8) (xy 210.82 -50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf50ed8-91ba-48a3-a098-e4a327bc6c3c")
+	)
+	(wire
+		(pts
+			(xy 177.8 -43.18) (xy 187.96 -43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd9cf2cb-a7f5-40db-8d08-6ded376ee2a7")
+	)
+	(wire
+		(pts
+			(xy 220.98 -50.8) (xy 226.06 -50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb54f7f-cce0-435e-b9c2-881a8043034f")
+	)
+	(wire
+		(pts
 			(xy 99.06 86.36) (xy 101.6 86.36)
 		)
 		(stroke
@@ -1967,6 +2858,16 @@
 			(type default)
 		)
 		(uuid "fdf59299-809d-4219-9015-2575c57dbf15")
+	)
+	(wire
+		(pts
+			(xy 251.46 53.34) (xy 256.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe344ce3-d29a-4980-bb5c-3663c84a941c")
 	)
 	(wire
 		(pts
@@ -1979,7 +2880,7 @@
 		(uuid "fec465f7-3473-47cd-914e-81a08f5b5ee7")
 	)
 	(image
-		(at 345.44 96.52)
+		(at 325.12 96.52)
 		(uuid "3c40e58d-2f43-4ba5-961e-0e7df17784f3")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAyUAAADqCAYAAAC8wupjAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3XtclGX+//HXHIDhpCIKKp5RUBFF01LLPKSVmtqWpqVbuVlu/dZy005r2snSSrNtq2/bWlqZ"
@@ -4150,6 +5051,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitors:0402_nF010_50V")
+		(at 220.98 -50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a6ba09b-c212-49a9-83b5-da593090caf0")
+		(property "Reference" "C152"
+			(at 223.52 -48.2601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 223.52 -45.7201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 219.202 -50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
+			(at 214.63 -53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 215.9 -58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71H103KA55D"
+			(at 220.98 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-4762-1-ND"
+			(at 220.98 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 220.98 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".02"
+			(at 220.98 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf96f4b2-9925-427a-82d3-1db50e11289d")
+		)
+		(pin "2"
+			(uuid "123fe784-405b-44e7-ad8b-48029bcf3a96")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 228.6 58.42 90)
 		(unit 1)
@@ -4298,6 +5325,83 @@
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 -43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "111ffd3b-15cf-444f-be24-20f38d2c5ca3")
+		(property "Reference" "#PWR094"
+			(at 162.56 -36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 -38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 -43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 -43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 -43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4397f80f-08ce-4bb6-8f94-f9ed7e0d08cf")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -4529,6 +5633,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitors:0402_pF2.2_50V")
+		(at 139.7 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "123a1229-77e5-4fa8-b9ef-374e44d07350")
+		(property "Reference" "C175"
+			(at 143.51 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2pF"
+			(at 143.51 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 139.7 159.258 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 136.525 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 132.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H2R2WB01D"
+			(at 139.7 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-11207-1-ND"
+			(at 139.7 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRF" "5970MHz"
+			(at 139.7 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f26e7e0d-c02f-4f96-b176-19251c361f1d")
+		)
+		(pin "1"
+			(uuid "ddb39e70-b362-4d33-8fbe-863b8a3ebfea")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistors:0402_R100")
 		(at 50.8 96.52 0)
 		(unit 1)
@@ -4649,6 +5866,258 @@
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:0402_nF010_50V")
+		(at 177.8 -50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "144ccd6c-728b-47a0-9f3b-f20837a21e65")
+		(property "Reference" "C147"
+			(at 180.34 -48.2601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 180.34 -45.7201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 176.022 -50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
+			(at 171.45 -53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 172.72 -58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71H103KA55D"
+			(at 177.8 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-4762-1-ND"
+			(at 177.8 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 177.8 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".02"
+			(at 177.8 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f9d0791-352b-4eec-bb90-ee465933be7c")
+		)
+		(pin "2"
+			(uuid "481b3554-711d-49e0-a882-969812e18631")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:0402_nF010_50V")
+		(at 210.82 -50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1528c42b-c7fd-4468-ba83-c38d4f9bc1e9")
+		(property "Reference" "C151"
+			(at 213.36 -48.2601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 213.36 -45.7201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 209.042 -50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
+			(at 204.47 -53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 205.74 -58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71H103KA55D"
+			(at 210.82 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-4762-1-ND"
+			(at 210.82 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 210.82 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".02"
+			(at 210.82 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9114e577-7d3b-4d75-a033-2cec1aa79f32")
+		)
+		(pin "2"
+			(uuid "e8e08880-0714-477f-9d61-a7bec27dc080")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C151")
 					(unit 1)
 				)
 			)
@@ -4818,6 +6287,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 162.56 -27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "224732bc-b3db-476c-9805-3e860c84789a")
+		(property "Reference" "#PWR074"
+			(at 162.56 -21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 -22.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 -27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 -27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 -27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a8b3a61-e08c-49a4-8700-0793d2da2d20")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistors:0402_R100")
 		(at 76.2 139.7 0)
 		(unit 1)
@@ -4937,6 +6483,245 @@
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
 					(reference "RL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:0402_nF010_50V")
+		(at 200.66 -35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "288d2aac-3042-4eca-9bca-87836fd363e5")
+		(property "Reference" "C156"
+			(at 203.2 -33.0201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 203.2 -30.4801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 198.882 -35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
+			(at 194.31 -38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 195.58 -43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71H103KA55D"
+			(at 200.66 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-4762-1-ND"
+			(at 200.66 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 200.66 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".02"
+			(at 200.66 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88e0ccc9-78b5-4337-953d-58741ec686b9")
+		)
+		(pin "2"
+			(uuid "251b1344-caea-49a6-8456-dea29469c23a")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:0402_pF2.2_50V")
+		(at 243.84 27.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "291a91db-043f-4a3b-bb2d-921202a225ba")
+		(property "Reference" "C161"
+			(at 247.65 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2pF"
+			(at 247.65 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 243.84 29.718 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.665 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 236.22 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H2R2WB01D"
+			(at 243.84 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-11207-1-ND"
+			(at 243.84 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRF" "5970MHz"
+			(at 243.84 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6c9af7c-d17e-44de-a0f2-06d8bdc5556c")
+		)
+		(pin "1"
+			(uuid "b7ae336d-124f-4ff8-8c3a-f6b75a384197")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C161")
 					(unit 1)
 				)
 			)
@@ -5091,6 +6876,119 @@
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:0402_pF2.2_50V")
+		(at 139.7 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "419f2459-4e30-4820-b707-6e734491e39f")
+		(property "Reference" "C168"
+			(at 143.51 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2pF"
+			(at 143.51 26.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 139.7 32.258 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 136.525 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 132.08 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H2R2WB01D"
+			(at 139.7 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-11207-1-ND"
+			(at 139.7 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRF" "5970MHz"
+			(at 139.7 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "46b6b0c7-926c-4a9a-87a5-98a9a58328ce")
+		)
+		(pin "1"
+			(uuid "8a4e67a1-418f-48c8-bde9-b00b1d27e325")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C168")
 					(unit 1)
 				)
 			)
@@ -5257,6 +7155,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitors:0402_pF2.2_50V")
+		(at 243.84 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4738aaa2-4208-4911-bad9-635d0794cccc")
+		(property "Reference" "C165"
+			(at 247.65 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2pF"
+			(at 247.65 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 243.84 105.918 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.665 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 236.22 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H2R2WB01D"
+			(at 243.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-11207-1-ND"
+			(at 243.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRF" "5970MHz"
+			(at 243.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5c7b63b0-5979-46bd-b642-c3787de18c04")
+		)
+		(pin "1"
+			(uuid "7414a0f5-95c7-4b9f-ad69-350b9e4f9941")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 160.02 76.2 270)
 		(unit 1)
@@ -5328,6 +7339,132 @@
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:0402_nF010_50V")
+		(at 210.82 -35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d78db6c-32a1-4c8c-a3ac-63355b4a3eab")
+		(property "Reference" "C158"
+			(at 213.36 -33.0201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 213.36 -30.4801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 209.042 -35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
+			(at 204.47 -38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 205.74 -43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71H103KA55D"
+			(at 210.82 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-4762-1-ND"
+			(at 210.82 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 210.82 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".02"
+			(at 210.82 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e32f96d3-8fbf-4b83-b7df-e3f2d9f0d008")
+		)
+		(pin "2"
+			(uuid "c5030d7a-2557-4427-9ea7-c954253e3a55")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C158")
 					(unit 1)
 				)
 			)
@@ -5566,6 +7703,245 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitors:0402_nF010_50V")
+		(at 167.64 -50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "621f6a80-290d-42cf-9e76-910125269f57")
+		(property "Reference" "C140"
+			(at 170.18 -48.2601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 170.18 -45.7201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 165.862 -50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
+			(at 161.29 -53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 162.56 -58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71H103KA55D"
+			(at 167.64 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-4762-1-ND"
+			(at 167.64 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 167.64 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".02"
+			(at 167.64 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7efd4990-8f73-456a-bffd-f06361094389")
+		)
+		(pin "2"
+			(uuid "c334b22a-08cc-40f3-8d22-4021eec4b3e5")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:0402_pF2.2_50V")
+		(at 139.7 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "652d9e84-aef6-4fda-ac4b-7214395ed976")
+		(property "Reference" "C170"
+			(at 143.51 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2pF"
+			(at 143.51 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 139.7 83.058 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 136.525 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 132.08 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H2R2WB01D"
+			(at 139.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-11207-1-ND"
+			(at 139.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRF" "5970MHz"
+			(at 139.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e3765b99-1894-4689-ac6b-6bec31bc4f25")
+		)
+		(pin "1"
+			(uuid "5170159f-bfd0-40af-9193-e698867a4158")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_components:SKY13575-639LF")
 		(at 160.02 73.66 0)
 		(unit 1)
@@ -5702,6 +8078,119 @@
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:0402_pF2.2_50V")
+		(at 139.7 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "690481ad-5715-47b6-afed-6074bc2e1192")
+		(property "Reference" "C174"
+			(at 143.51 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2pF"
+			(at 143.51 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 139.7 133.858 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 136.525 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 132.08 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H2R2WB01D"
+			(at 139.7 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-11207-1-ND"
+			(at 139.7 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRF" "5970MHz"
+			(at 139.7 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e707c9f3-dd4e-4986-93b1-bc553fdc8dda")
+		)
+		(pin "1"
+			(uuid "bce94376-16df-459e-8d87-449aeebf04b2")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C174")
 					(unit 1)
 				)
 			)
@@ -5927,6 +8416,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitors:0402_pF2.2_50V")
+		(at 139.7 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74cd6845-08be-4b66-a758-0523d598a51b")
+		(property "Reference" "C172"
+			(at 143.51 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2pF"
+			(at 143.51 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 139.7 108.458 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 136.525 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 132.08 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H2R2WB01D"
+			(at 139.7 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-11207-1-ND"
+			(at 139.7 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRF" "5970MHz"
+			(at 139.7 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3cd61960-8dda-48fc-9ff0-81fb55a27d52")
+		)
+		(pin "1"
+			(uuid "4dd4ffb3-1cc2-4aba-9f2b-1067e395e52e")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistors:0402_R100")
 		(at 76.2 124.46 0)
 		(unit 1)
@@ -6047,6 +8649,119 @@
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:0402_pF2.2_50V")
+		(at 243.84 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "768dc2d0-599f-4f0b-8748-1490fa3b03bb")
+		(property "Reference" "C163"
+			(at 247.65 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2pF"
+			(at 247.65 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 243.84 80.518 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.665 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 236.22 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H2R2WB01D"
+			(at 243.84 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-11207-1-ND"
+			(at 243.84 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRF" "5970MHz"
+			(at 243.84 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "53cfa186-6033-4506-9675-8a94d6c85878")
+		)
+		(pin "1"
+			(uuid "afe8170c-b175-49dd-8463-b624f8d8530b")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C163")
 					(unit 1)
 				)
 			)
@@ -6205,6 +8920,83 @@
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V8")
+		(at 226.06 -50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "82603c85-0e4f-4410-8974-1b523a296f7e")
+		(property "Reference" "#PWR097"
+			(at 226.06 -46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 228.6 -53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V8\""
+			(at 226.06 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc3f3a68-acde-4053-8520-2feb73b10872")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -6425,6 +9217,132 @@
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:0402_nF010_50V")
+		(at 167.64 -35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "884e036d-9482-4e7f-a1a4-b6f5800e1a7e")
+		(property "Reference" "C153"
+			(at 170.18 -33.0201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 170.18 -30.4801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 165.862 -35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
+			(at 161.29 -38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 162.56 -43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71H103KA55D"
+			(at 167.64 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-4762-1-ND"
+			(at 167.64 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 167.64 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".02"
+			(at 167.64 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "315aaa95-b417-481a-85d4-b6a608af770e")
+		)
+		(pin "2"
+			(uuid "e16ca6e6-1c26-4630-ad21-aecda772013a")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C153")
 					(unit 1)
 				)
 			)
@@ -7407,6 +10325,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitors:0402_nF010_50V")
+		(at 200.66 -50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8244ffb-0ec5-42f8-9a99-72421366ce17")
+		(property "Reference" "C149"
+			(at 203.2 -48.2601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 203.2 -45.7201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 198.882 -50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
+			(at 194.31 -53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 195.58 -58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71H103KA55D"
+			(at 200.66 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-4762-1-ND"
+			(at 200.66 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 200.66 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".02"
+			(at 200.66 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c854d2a8-347a-4e1d-b1c2-3f457b087abc")
+		)
+		(pin "2"
+			(uuid "92b8ce6b-9879-406c-ae78-aedd6910a5ed")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_components:SKY13575-639LF")
 		(at 228.6 35.56 180)
 		(unit 1)
@@ -7543,6 +10587,245 @@
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:0402_nF010_50V")
+		(at 220.98 -35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae45d3db-45c6-493a-9dd2-f9ab0f4d678d")
+		(property "Reference" "C160"
+			(at 223.52 -33.0201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 223.52 -30.4801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 219.202 -35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
+			(at 214.63 -38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 215.9 -43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71H103KA55D"
+			(at 220.98 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-4762-1-ND"
+			(at 220.98 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 220.98 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".02"
+			(at 220.98 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cdc9da81-6e3b-4fee-ac25-d1ee1a47d9e7")
+		)
+		(pin "2"
+			(uuid "84bb32d2-3d90-45bc-af57-cfe7a89117eb")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:0402_pF2.2_50V")
+		(at 243.84 129.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4b78ef-1466-4b74-ac31-3e3a2cbad3f5")
+		(property "Reference" "C166"
+			(at 247.65 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2pF"
+			(at 247.65 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 243.84 131.318 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.665 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 236.22 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H2R2WB01D"
+			(at 243.84 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-11207-1-ND"
+			(at 243.84 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRF" "5970MHz"
+			(at 243.84 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "00e16d1c-ecac-4667-b005-d7d2bf5d6836")
+		)
+		(pin "1"
+			(uuid "cee77c05-08cb-4d2f-af8d-15b59b2b1895")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C166")
 					(unit 1)
 				)
 			)
@@ -8199,6 +11482,245 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitors:0402_pF2.2_50V")
+		(at 139.7 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c75428f6-624f-48bb-b4b9-c09d55e275eb")
+		(property "Reference" "C169"
+			(at 143.51 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2pF"
+			(at 143.51 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 139.7 57.658 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 136.525 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 132.08 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H2R2WB01D"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-11207-1-ND"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRF" "5970MHz"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8df04b99-3fd4-4d5c-8b23-0c801ad9f600")
+		)
+		(pin "1"
+			(uuid "ab92380a-c3f9-4e5c-8de3-03115e19ddcd")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:0402_nF010_50V")
+		(at 177.8 -35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc38573b-6b96-4efb-a992-00577b4e0f7d")
+		(property "Reference" "C154"
+			(at 180.34 -33.0201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 180.34 -30.4801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 176.022 -35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
+			(at 171.45 -38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 172.72 -43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71H103KA55D"
+			(at 177.8 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-4762-1-ND"
+			(at 177.8 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 177.8 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".02"
+			(at 177.8 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba28f5f3-d351-45a8-b68b-8d16d03af726")
+		)
+		(pin "2"
+			(uuid "9d1a477e-b03b-4ed5-8af2-335e76a859d7")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_components:Powersplitter")
 		(at 91.44 88.9 0)
 		(unit 1)
@@ -8408,6 +11930,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitors:0402_nF010_50V")
+		(at 187.96 -35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3575e75-e087-4360-a9a7-1b1cc75756e4")
+		(property "Reference" "C155"
+			(at 190.5 -33.0201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 190.5 -30.4801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 186.182 -35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
+			(at 181.61 -38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 182.88 -43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71H103KA55D"
+			(at 187.96 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-4762-1-ND"
+			(at 187.96 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 187.96 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".02"
+			(at 187.96 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b206476-ccbe-479d-a30c-a5d756cc02dd")
+		)
+		(pin "2"
+			(uuid "2ca9ec45-bb97-47e3-87fc-eb5f9d3b5dbe")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistors:0402_R100")
 		(at 101.6 88.9 0)
 		(unit 1)
@@ -8528,6 +12176,132 @@
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:0402_nF010_50V")
+		(at 187.96 -50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d441c930-23a9-44ad-a185-30b7fc033da8")
+		(property "Reference" "C148"
+			(at 190.5 -48.2601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 190.5 -45.7201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 186.182 -50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
+			(at 181.61 -53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 182.88 -58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM155R71H103KA55D"
+			(at 187.96 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-4762-1-ND"
+			(at 187.96 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 187.96 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".02"
+			(at 187.96 -50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18498191-68b2-4ef3-b504-cea2212426e6")
+		)
+		(pin "2"
+			(uuid "a79a553a-063d-4223-a14d-181613d44e05")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C148")
 					(unit 1)
 				)
 			)
@@ -8756,6 +12530,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitors:0402_pF2.2_50V")
+		(at 243.84 154.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db9cd714-6cdb-4589-acb2-93c134d47821")
+		(property "Reference" "C167"
+			(at 247.65 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2pF"
+			(at 247.65 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 243.84 156.718 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.665 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 236.22 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H2R2WB01D"
+			(at 243.84 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-11207-1-ND"
+			(at 243.84 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRF" "5970MHz"
+			(at 243.84 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "79c31a5b-3015-4c82-9617-ad517d75ded4")
+		)
+		(pin "1"
+			(uuid "9469bb07-e580-43c6-b535-5eee76b3e7e8")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C167")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 256.54 48.26 90)
 		(mirror x)
@@ -8830,6 +12717,119 @@
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors:0402_pF2.2_50V")
+		(at 243.84 53.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de978067-6368-448e-8db0-24233719e463")
+		(property "Reference" "C162"
+			(at 247.65 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2pF"
+			(at 247.65 49.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 243.84 55.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.665 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 236.22 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM1555C1H2R2WB01D"
+			(at 243.84 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DN" "490-11207-1-ND"
+			(at 243.84 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SRF" "5970MHz"
+			(at 243.84 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "212c6d59-6117-4f4e-8a3b-867d14c15113")
+		)
+		(pin "1"
+			(uuid "e658d0be-cf1a-42c7-8d58-2ae1e5d78847")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "C162")
 					(unit 1)
 				)
 			)
@@ -8985,6 +12985,83 @@
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V8")
+		(at 226.06 -35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb623bb5-003a-4588-a5bf-329dad616fc4")
+		(property "Reference" "#PWR099"
+			(at 226.06 -31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 228.6 -38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V8\""
+			(at 226.06 -35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1136913-ccf7-4df1-9960-513def61fe2a")
+		)
+		(instances
+			(project "Microwave_Beamer"
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/e437e94e-4cb9-42b8-8417-785f8fb28186"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)

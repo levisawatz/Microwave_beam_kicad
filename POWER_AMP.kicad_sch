@@ -5,7 +5,7 @@
 	(uuid "36ed7800-6050-45bb-95c9-f0ba2270255d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Capacitors:0402_nF010_50V"
+		(symbol "Capacitors:0402_nF100_50V"
 			(pin_numbers
 				(hide yes)
 			)
@@ -27,7 +27,7 @@
 					)
 				)
 			)
-			(property "Value" "10nF"
+			(property "Value" "100nF"
 				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -59,7 +59,7 @@
 					)
 				)
 			)
-			(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
 				(at -5.08 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -70,7 +70,7 @@
 					)
 				)
 			)
-			(property "MPN" "GCM155R71H103KA55D"
+			(property "MPN" "GCM155R71H104KE02J"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -81,7 +81,7 @@
 					)
 				)
 			)
-			(property "DN" "490-4762-1-ND"
+			(property "DN" "490-14514-1-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -103,18 +103,7 @@
 					)
 				)
 			)
-			(property "cost" ".02"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "price" ".388"
+			(property "price" ".02"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -147,7 +136,7 @@
 					)
 				)
 			)
-			(symbol "0402_nF010_50V_0_1"
+			(symbol "0402_nF100_50V_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -3.175) (xy 1.27 -3.175)
@@ -197,7 +186,7 @@
 					)
 				)
 			)
-			(symbol "0402_nF010_50V_1_1"
+			(symbol "0402_nF100_50V_1_1"
 				(pin passive line
 					(at 0 0 270)
 					(length 1.27)
@@ -397,227 +386,6 @@
 				)
 			)
 			(symbol "0402_nF1_50V_1_1"
-				(pin passive line
-					(at 0 0 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Capacitors:0603_nf100"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 2.54 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "100nF"
-				(at 2.54 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at -6.35 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-				(at -5.08 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "GCJ188R71H104KA12D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DN" "490-5798-1-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MFR" "Murata Electronics"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "price" ".10"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0603_nf100_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -3.175) (xy 1.27 -3.175)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -4.445) (xy 1.27 -4.445)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.175) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.445) (xy 0 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0603_nf100_1_1"
 				(pin passive line
 					(at 0 0 270)
 					(length 1.27)
@@ -1664,10 +1432,10 @@
 		)
 	)
 	(junction
-		(at 96.52 99.06)
+		(at 97.79 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "08e2f065-15bb-4ee3-a358-71e8f6731919")
+		(uuid "12fb372f-f9a7-4540-852b-b4f0aad9b4d3")
 	)
 	(junction
 		(at 86.36 93.98)
@@ -1692,6 +1460,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38abab90-d73c-4dbb-bea9-479111c68ea6")
+	)
+	(junction
+		(at 104.14 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "390a77e4-23da-4d02-9936-c27bd2ee0205")
 	)
 	(junction
 		(at 71.12 114.3)
@@ -1754,28 +1528,16 @@
 		(uuid "c35f383d-35bd-4dca-9a3b-0c127e327f05")
 	)
 	(junction
-		(at 96.52 91.44)
+		(at 97.79 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c6318ad2-83b0-45c8-b95d-f0808b301873")
-	)
-	(junction
-		(at 101.6 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e97bb45e-16f8-462d-bd6b-6ebff7fb8355")
+		(uuid "c720e305-2fb4-4501-8f3f-e2ee52ce5cca")
 	)
 	(junction
 		(at 86.36 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebffda7e-a78e-4389-9f72-95b86a8fd2ce")
-	)
-	(junction
-		(at 101.6 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb95aed8-c558-4661-bc4c-43ed0db9f5a4")
 	)
 	(no_connect
 		(at 50.8 91.44)
@@ -1794,6 +1556,16 @@
 			(type default)
 		)
 		(uuid "24594d9d-739b-4e16-9818-a515f2fa9a0c")
+	)
+	(wire
+		(pts
+			(xy 104.14 91.44) (xy 111.76 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a3e89e-eeb4-4586-91ce-fbb1e9d9613d")
 	)
 	(wire
 		(pts
@@ -1837,7 +1609,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 91.44) (xy 96.52 91.44)
+			(xy 91.44 91.44) (xy 97.79 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1857,13 +1629,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 96.52 99.06)
+			(xy 91.44 99.06) (xy 97.79 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b8a10dd-8282-4ff2-b129-dc4c07619ff5")
+	)
+	(wire
+		(pts
+			(xy 97.79 91.44) (xy 104.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737d1f4e-5579-4475-9c2b-7dc2afb4ccfa")
 	)
 	(wire
 		(pts
@@ -1917,26 +1699,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 91.44) (xy 111.76 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eeb9a38-ac20-402e-a8fa-431d3d67a728")
-	)
-	(wire
-		(pts
-			(xy 101.6 99.06) (xy 104.14 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f625ff4-18fa-4f55-b4ec-d66386d653cf")
-	)
-	(wire
-		(pts
 			(xy 76.2 114.3) (xy 78.74 114.3)
 		)
 		(stroke
@@ -1947,23 +1709,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 99.06) (xy 101.6 99.06)
+			(xy 97.79 99.06) (xy 104.14 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6116415-6b57-466a-9b8e-68c89d34ee9d")
-	)
-	(wire
-		(pts
-			(xy 96.52 91.44) (xy 101.6 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b214a1de-cdde-4ebe-838a-7eaeb01dbce7")
+		(uuid "a2ff6853-5d39-492f-bed8-05181216054a")
 	)
 	(wire
 		(pts
@@ -3257,8 +3009,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:0402_nF010_50V")
-		(at 96.52 91.44 0)
+		(lib_id "Capacitors:0402_nF100_50V")
+		(at 97.79 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3268,7 +3020,7 @@
 		(dnp no)
 		(uuid "3d6ae133-0082-4736-be31-e98f0bc0633d")
 		(property "Reference" "C285"
-			(at 93.98 86.36 0)
+			(at 95.25 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3278,19 +3030,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
-			(at 93.98 88.9 0)
+		(property "Value" "100nF"
+			(at 97.79 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 94.742 91.44 90)
+			(at 96.012 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3301,7 +3052,7 @@
 			)
 		)
 		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
-			(at 90.17 88.265 0)
+			(at 91.44 88.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3311,8 +3062,8 @@
 				)
 			)
 		)
-		(property "Description" "10000 pF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 91.44 83.82 0)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 92.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3322,8 +3073,8 @@
 				)
 			)
 		)
-		(property "MPN" "GCM155R71H103KA55D"
-			(at 96.52 91.44 0)
+		(property "MPN" "GCM155R71H104KE02J"
+			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3333,8 +3084,8 @@
 				)
 			)
 		)
-		(property "DN" "490-4762-1-ND"
-			(at 96.52 91.44 0)
+		(property "DN" "490-14514-1-ND"
+			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3345,7 +3096,7 @@
 			)
 		)
 		(property "MFR" "Murata Electronics"
-			(at 96.52 91.44 0)
+			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3356,7 +3107,7 @@
 			)
 		)
 		(property "cost" ".02"
-			(at 96.52 91.44 0)
+			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3366,8 +3117,8 @@
 				)
 			)
 		)
-		(property "price" ".388"
-			(at 96.52 91.44 0)
+		(property "price" ".02"
+			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3465,8 +3216,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:0603_nf100")
-		(at 101.6 91.44 0)
+		(lib_id "Capacitors:0402_nF100_50V")
+		(at 104.14 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3476,7 +3227,7 @@
 		(dnp no)
 		(uuid "5a43be50-be6a-4b1b-b751-c1c07ac78c82")
 		(property "Reference" "C4"
-			(at 101.6 86.36 0)
+			(at 104.14 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3487,18 +3238,17 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 101.6 88.9 0)
+			(at 104.14 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 99.822 91.44 90)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 102.362 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3508,8 +3258,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 95.25 88.265 0)
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?lcid=en-us&jis=false&md5=ffdf2ea84f2d70fe82acfb70297713ec"
+			(at 97.79 88.265 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3519,8 +3269,8 @@
 				)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 96.52 83.82 0)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 99.06 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3530,8 +3280,8 @@
 				)
 			)
 		)
-		(property "MPN" "GCJ188R71H104KA12D"
-			(at 101.6 91.44 0)
+		(property "MPN" "GCM155R71H104KE02J"
+			(at 104.14 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3541,8 +3291,8 @@
 				)
 			)
 		)
-		(property "DN" "490-5798-1-ND"
-			(at 101.6 91.44 0)
+		(property "DN" "490-14514-1-ND"
+			(at 104.14 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3553,7 +3303,7 @@
 			)
 		)
 		(property "MFR" "Murata Electronics"
-			(at 101.6 91.44 0)
+			(at 104.14 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3563,8 +3313,8 @@
 				)
 			)
 		)
-		(property "price" ".10"
-			(at 101.6 91.44 0)
+		(property "price" ".02"
+			(at 104.14 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
