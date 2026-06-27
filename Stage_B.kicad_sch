@@ -145,6 +145,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 93.98) (xy 218.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781c0612-91df-4ba4-9edb-70bbdbb0941b")
+	)
+	(wire
+		(pts
 			(xy 137.16 78.74) (xy 157.48 78.74)
 		)
 		(stroke
@@ -403,54 +413,6 @@
 		)
 		(uuid "fc333623-d653-4f4f-a8d8-7046753e2a07")
 	)
-	(global_label "Stage_2_power"
-		(shape input)
-		(at 208.28 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52e11d18-8bcf-47c7-9793-d999af09cac0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.235 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Stage_2_power"
-		(shape input)
-		(at 350.52 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64267b6a-85be-44d8-a0a9-01526c0697cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 367.475 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(hierarchical_label "IN"
 		(shape input)
 		(at 91.44 71.12 180)
@@ -472,6 +434,17 @@
 			(justify right)
 		)
 		(uuid "9280b8f7-4de7-4681-862b-9b8ffe43fb41")
+	)
+	(hierarchical_label "power_det"
+		(shape output)
+		(at 218.44 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea2f2ac0-fd2a-46e9-b9ef-2f26e380b283")
 	)
 	(sheet
 		(at 185.42 73.66)

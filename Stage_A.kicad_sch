@@ -226,7 +226,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Capacitors:0402_pF2.2_50V"
+		(symbol "Capacitors:0402_pF002.2_50V"
 			(pin_numbers
 				(hide yes)
 			)
@@ -324,6 +324,17 @@
 					)
 				)
 			)
+			(property "price" ".08"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "C cap capacitor"
 				(at 0 0 0)
 				(show_name no)
@@ -346,7 +357,7 @@
 					)
 				)
 			)
-			(symbol "0402_pF2.2_50V_0_1"
+			(symbol "0402_pF002.2_50V_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -3.175) (xy 1.27 -3.175)
@@ -396,7 +407,7 @@
 					)
 				)
 			)
-			(symbol "0402_pF2.2_50V_1_1"
+			(symbol "0402_pF002.2_50V_1_1"
 				(pin passive line
 					(at 0 0 270)
 					(length 1.27)
@@ -455,7 +466,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "splitter"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -489,6 +500,17 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DNP" "DNP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -670,6 +692,17 @@
 			)
 			(property "DN" "863-1767-1-ND"
 				(at 20.32 11.938 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "price" "1.79"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -984,6 +1017,191 @@
 						)
 					)
 					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Resistors:0402_R050"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "50"
+				(at 0 -2.54 90)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -5.08 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -6.35 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "49.9 Ohms ±0.1% 0.13W Chip Resistor 0402 (1005 Metric) Thin Film"
+				(at -5.08 1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TNPW040249R9BEED"
+				(at -5.08 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DN" "TNP49.9DACT-ND"
+				(at -5.08 1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR" "Vishay Dale"
+				(at -5.08 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "price" ".30"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402_R050_0_1"
+				(rectangle
+					(start -1.016 1.27)
+					(end 1.016 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402_R050_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2001,6 +2219,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 96.52) (xy 30.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e067c90-32c1-4acd-af95-03747adc6051")
+	)
+	(wire
+		(pts
 			(xy 101.6 111.76) (xy 101.6 114.3)
 		)
 		(stroke
@@ -2561,6 +2789,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 27.94) (xy 256.54 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab26527a-2023-4c3b-9a0b-a3c47e11ea36")
+	)
+	(wire
+		(pts
 			(xy 137.16 106.68) (xy 137.16 93.98)
 		)
 		(stroke
@@ -2778,16 +3016,6 @@
 			(type default)
 		)
 		(uuid "deca6f6a-7a2b-431a-9e23-c5cdabcbb27c")
-	)
-	(wire
-		(pts
-			(xy 251.46 27.94) (xy 256.54 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e32c934d-d6f7-437f-997e-903868674344")
 	)
 	(wire
 		(pts
@@ -4728,6 +4956,30 @@
 			)
 		)
 	)
+	(global_label "Stage_2_power"
+		(shape input)
+		(at 256.54 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed7d8437-49a2-45e6-9cce-09d9cc224771")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.585 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "PHASE_CTRL_1"
 		(shape input)
 		(at 160.02 134.62 180)
@@ -4754,7 +5006,7 @@
 	)
 	(hierarchical_label "IN"
 		(shape input)
-		(at 30.48 96.52 180)
+		(at 22.86 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4762,6 +5014,75 @@
 			(justify right)
 		)
 		(uuid "06ee1518-6785-4dcb-a993-ccc76e64833f")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 76.2 132.08 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "028be6bf-b678-4ab3-ac09-4a76353e10d8")
+		(property "Net Class" "50 ohm"
+			(at 81.28 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 74.93 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 148.59 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a2ad9e6-3853-4205-9823-81d2bff1af6c")
+		(property "Net Class" "50 ohm"
+			(at 149.2885 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 147.32 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -4801,17 +5122,17 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 116.84 93.98 0)
+		(at 237.49 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "292963b6-4f33-47c7-909c-a0a118b24994")
+		(uuid "1d3e2aa5-03d1-4f67-970a-5ecb7dca3683")
 		(property "Net Class" "50 ohm"
-			(at 117.5385 91.44 0)
+			(at 238.1885 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4822,7 +5143,392 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 115.57 22.86 0)
+			(at 236.22 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 148.59 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2087d15e-4925-4ed4-ba26-dba36163bd0a")
+		(property "Net Class" "50 ohm"
+			(at 149.2885 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 147.32 -40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 238.76 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24824800-d757-41f4-b59d-4a7336ccc47a")
+		(property "Net Class" "50 ohm"
+			(at 239.4585 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 237.49 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 115.57 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "292963b6-4f33-47c7-909c-a0a118b24994")
+		(property "Net Class" "50 ohm"
+			(at 116.2685 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 114.3 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 149.86 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3593ab3e-a6bf-4597-aca2-c83835fae0d5")
+		(property "Net Class" "50 ohm"
+			(at 150.5585 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 148.59 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 151.13 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52021b8c-2304-4a70-9b9f-0a2f33fb040f")
+		(property "Net Class" "50 ohm"
+			(at 151.8285 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 149.86 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 238.76 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "782a51b5-66bd-47bd-9cd9-9fd8cdc18983")
+		(property "Net Class" "50 ohm"
+			(at 239.4585 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 237.49 -17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 77.47 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d7ccbb5-8146-4fc1-9699-2b861cd3a5c7")
+		(property "Net Class" "50 ohm"
+			(at 78.1685 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 76.2 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 148.59 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9003cb16-787b-4b0a-9fb3-f74bb6d782eb")
+		(property "Net Class" "50 ohm"
+			(at 149.2885 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 147.32 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 77.47 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a35f9ed2-2ac2-43da-891d-fb88a5cfa5cc")
+		(property "Net Class" "50 ohm"
+			(at 78.1685 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 76.2 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 238.76 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8c94577-d3bb-4aab-8710-b270713a8ebf")
+		(property "Net Class" "50 ohm"
+			(at 239.4585 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 237.49 -43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 149.86 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8fedc28-3fb3-43fa-bfdb-c8e89242b772")
+		(property "Net Class" "50 ohm"
+			(at 150.5585 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 148.59 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4871,7 +5577,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 115.57 73.66 0)
+		(at 114.3 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4881,7 +5587,7 @@
 		)
 		(uuid "c7c043bb-4fc7-425a-8878-af7af914a1f7")
 		(property "Net Class" "50 ohm"
-			(at 116.2685 71.12 0)
+			(at 114.9985 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4892,7 +5598,112 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 114.3 2.54 0)
+			(at 113.03 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 238.76 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cde5942c-c3bf-4a46-acde-ed709ef7db70")
+		(property "Net Class" "50 ohm"
+			(at 239.4585 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 237.49 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 52.07 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d771ff7d-d223-45ac-ba39-63af4917d05c")
+		(property "Net Class" "50 ohm"
+			(at 52.7685 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 50.8 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 76.2 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddd93ecb-dcf6-4c28-b3ae-e4878db92736")
+		(property "Net Class" "50 ohm"
+			(at 76.8985 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 74.93 -2.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4928,6 +5739,110 @@
 		)
 		(property "Component Class" ""
 			(at 116.84 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 238.76 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f08598b1-92c2-4df7-ab5d-6b8dcaecb11a")
+		(property "Net Class" "50 ohm"
+			(at 239.4585 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 237.49 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 50.8 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "faf77fd1-0849-4e8a-8006-dd7692686752")
+		(property "Net Class" "50 ohm"
+			(at 51.4985 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 49.53 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 25.4 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc13738a-892f-4888-9029-8aaf189fbbaf")
+		(property "Net Class" "50 ohm"
+			(at 25.4 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 24.13 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5495,6 +6410,17 @@
 				)
 			)
 		)
+		(property "price" "1.79"
+			(at 228.6 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "abb2be87-182c-42c9-82ce-d08ac31b1e15")
 		)
@@ -5558,7 +6484,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "119a8edc-f46a-4162-8018-20249b359a55")
 		(property "Reference" "W1"
 			(at 35.306 90.17 0)
@@ -5570,7 +6496,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "splitter"
 			(at 40.64 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5614,6 +6540,17 @@
 				)
 			)
 		)
+		(property "DNP" "DNP"
+			(at 40.64 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "6f6b7d89-ed32-42e0-b6ae-5970966c79b8")
 		)
@@ -5633,7 +6570,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:0402_pF2.2_50V")
+		(lib_id "Capacitors:0402_pF002.2_50V")
 		(at 139.7 157.48 90)
 		(unit 1)
 		(body_style 1)
@@ -5730,6 +6667,17 @@
 				)
 			)
 		)
+		(property "price" ".08"
+			(at 139.7 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f26e7e0d-c02f-4f96-b176-19251c361f1d")
 		)
@@ -5755,7 +6703,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "13af8ef8-e6ab-404e-807d-4c265f49a72c")
 		(property "Reference" "R1"
 			(at 53.34 93.9799 0)
@@ -5769,7 +6716,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 53.34 96.5199 90)
+			(at 53.34 99.06 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6132,7 +7079,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1c2d76dc-2b9a-44c2-ba34-e45da069902c")
 		(property "Reference" "W6"
 			(at 86.106 110.49 0)
@@ -6144,7 +7091,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "splitter"
 			(at 91.44 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6178,6 +7125,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 91.44 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP" "DNP"
 			(at 91.44 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6364,7 +7322,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors:0402_R100")
+		(lib_id "Resistors:0402_R050")
 		(at 76.2 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -6385,8 +7343,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 78.74 139.6999 90)
+		(property "Value" "50"
+			(at 76.2 142.24 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6397,7 +7355,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 76.454 135.89 90)
+			(at 71.12 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6408,7 +7366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 139.7 0)
+			(at 69.85 135.255 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6418,29 +7376,7 @@
 				)
 			)
 		)
-		(property "Description" "100 Ohms ±0.5% 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
-			(at 76.2 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ERA-2AED101X"
-			(at 71.12 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DN" "P100DECT-ND"
+		(property "Description" "49.9 Ohms ±0.1% 0.13W Chip Resistor 0402 (1005 Metric) Thin Film"
 			(at 71.12 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -6451,7 +7387,7 @@
 				)
 			)
 		)
-		(property "MFR" "Panasonic Electronic Components"
+		(property "MPN" "TNPW040249R9BEED"
 			(at 71.12 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -6462,7 +7398,29 @@
 				)
 			)
 		)
-		(property "price" ".04"
+		(property "DN" "TNP49.9DACT-ND"
+			(at 71.12 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Vishay Dale"
+			(at 71.12 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".30"
 			(at 76.2 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6615,7 +7573,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:0402_pF2.2_50V")
+		(lib_id "Capacitors:0402_pF002.2_50V")
 		(at 243.84 27.94 90)
 		(unit 1)
 		(body_style 1)
@@ -6702,6 +7660,17 @@
 			)
 		)
 		(property "SRF" "5970MHz"
+			(at 243.84 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".08"
 			(at 243.84 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6882,7 +7851,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:0402_pF2.2_50V")
+		(lib_id "Capacitors:0402_pF002.2_50V")
 		(at 139.7 30.48 90)
 		(unit 1)
 		(body_style 1)
@@ -6979,6 +7948,17 @@
 				)
 			)
 		)
+		(property "price" ".08"
+			(at 139.7 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "46b6b0c7-926c-4a9a-87a5-98a9a58328ce")
 		)
@@ -7003,7 +7983,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "443764c6-a7fa-4377-b434-382b3c10544d")
 		(property "Reference" "W4"
 			(at 86.106 62.23 0)
@@ -7015,7 +7995,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "splitter"
 			(at 91.44 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7049,6 +8029,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 91.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP" "DNP"
 			(at 91.44 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7155,7 +8146,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:0402_pF2.2_50V")
+		(lib_id "Capacitors:0402_pF002.2_50V")
 		(at 243.84 104.14 90)
 		(unit 1)
 		(body_style 1)
@@ -7242,6 +8233,17 @@
 			)
 		)
 		(property "SRF" "5970MHz"
+			(at 243.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".08"
 			(at 243.84 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7829,7 +8831,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:0402_pF2.2_50V")
+		(lib_id "Capacitors:0402_pF002.2_50V")
 		(at 139.7 81.28 90)
 		(unit 1)
 		(body_style 1)
@@ -7916,6 +8918,17 @@
 			)
 		)
 		(property "SRF" "5970MHz"
+			(at 139.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".08"
 			(at 139.7 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8029,6 +9042,17 @@
 				)
 			)
 		)
+		(property "price" "1.79"
+			(at 160.02 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "99ed0ab9-656d-4a83-8334-3f59727bb785")
 		)
@@ -8084,7 +9108,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:0402_pF2.2_50V")
+		(lib_id "Capacitors:0402_pF002.2_50V")
 		(at 139.7 132.08 90)
 		(unit 1)
 		(body_style 1)
@@ -8171,6 +9195,17 @@
 			)
 		)
 		(property "SRF" "5970MHz"
+			(at 139.7 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".08"
 			(at 139.7 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8275,6 +9310,17 @@
 		)
 		(property "DN" "863-1767-1-ND"
 			(at 208.28 98.298 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" "1.79"
+			(at 228.6 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8416,7 +9462,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:0402_pF2.2_50V")
+		(lib_id "Capacitors:0402_pF002.2_50V")
 		(at 139.7 106.68 90)
 		(unit 1)
 		(body_style 1)
@@ -8513,6 +9559,17 @@
 				)
 			)
 		)
+		(property "price" ".08"
+			(at 139.7 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3cd61960-8dda-48fc-9ff0-81fb55a27d52")
 		)
@@ -8538,7 +9595,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "75f7e70c-f936-40ad-91ed-2d7414f627c6")
 		(property "Reference" "R3"
 			(at 78.74 121.9199 0)
@@ -8552,7 +9608,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 78.74 124.4599 90)
+			(at 78.74 128.27 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8655,7 +9711,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:0402_pF2.2_50V")
+		(lib_id "Capacitors:0402_pF002.2_50V")
 		(at 243.84 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -8742,6 +9798,17 @@
 			)
 		)
 		(property "SRF" "5970MHz"
+			(at 243.84 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".08"
 			(at 243.84 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9081,6 +10148,17 @@
 		)
 		(property "DN" "863-1767-1-ND"
 			(at 180.34 36.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" "1.79"
+			(at 160.02 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9436,6 +10514,17 @@
 				)
 			)
 		)
+		(property "price" "1.79"
+			(at 228.6 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "64449ba6-0abc-46d7-b2ae-257718bb547f")
 		)
@@ -9499,7 +10588,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8de33279-3945-419e-a869-3da3cc61468a")
 		(property "Reference" "W2"
 			(at 60.706 69.85 0)
@@ -9511,7 +10600,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "splitter"
 			(at 66.04 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9545,6 +10634,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP" "DNP"
 			(at 66.04 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9807,6 +10907,17 @@
 		)
 		(property "DN" "863-1767-1-ND"
 			(at 180.34 112.522 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" "1.79"
+			(at 160.02 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10270,6 +11381,17 @@
 				)
 			)
 		)
+		(property "price" "1.79"
+			(at 160.02 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "df2ee6ea-c44c-430e-b919-50506e80b38c")
 		)
@@ -10538,6 +11660,17 @@
 				)
 			)
 		)
+		(property "price" "1.79"
+			(at 228.6 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "eafa9390-045e-476e-a4d0-a9b551fb328a")
 		)
@@ -10719,7 +11852,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:0402_pF2.2_50V")
+		(lib_id "Capacitors:0402_pF002.2_50V")
 		(at 243.84 129.54 90)
 		(unit 1)
 		(body_style 1)
@@ -10806,6 +11939,17 @@
 			)
 		)
 		(property "SRF" "5970MHz"
+			(at 243.84 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".08"
 			(at 243.84 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10910,6 +12054,17 @@
 		)
 		(property "DN" "863-1767-1-ND"
 			(at 208.28 174.498 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" "1.79"
+			(at 228.6 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11052,6 +12207,17 @@
 		)
 		(property "DN" "863-1767-1-ND"
 			(at 180.34 137.922 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" "1.79"
+			(at 160.02 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11282,7 +12448,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c38d9e60-7ff6-4cbe-910a-61c525c4205a")
 		(property "Reference" "R6"
 			(at 104.14 114.2999 0)
@@ -11296,7 +12461,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 104.14 116.8399 90)
+			(at 104.14 119.38 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11407,7 +12572,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c6ec6774-e02c-444c-972c-40cd2fd2b798")
 		(property "Reference" "W3"
 			(at 60.706 118.11 0)
@@ -11419,7 +12584,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "splitter"
 			(at 66.04 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11463,6 +12628,17 @@
 				)
 			)
 		)
+		(property "DNP" "DNP"
+			(at 66.04 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "0b7e6f6c-1d39-4407-988d-92d01be1f00d")
 		)
@@ -11482,7 +12658,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:0402_pF2.2_50V")
+		(lib_id "Capacitors:0402_pF002.2_50V")
 		(at 139.7 55.88 90)
 		(unit 1)
 		(body_style 1)
@@ -11569,6 +12745,17 @@
 			)
 		)
 		(property "SRF" "5970MHz"
+			(at 139.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".08"
 			(at 139.7 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11729,7 +12916,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ce02c4e8-1c67-405f-835b-730e189ba21f")
 		(property "Reference" "W5"
 			(at 86.106 82.55 0)
@@ -11741,7 +12928,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "splitter"
 			(at 91.44 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -11785,6 +12972,17 @@
 				)
 			)
 		)
+		(property "DNP" "DNP"
+			(at 91.44 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "14acca85-82da-4ed7-b0ed-7bc9c3ae68d5")
 		)
@@ -11813,7 +13011,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d13b3b95-eeec-4426-9f10-8bb6bc3c1387")
 		(property "Reference" "R4"
 			(at 104.14 66.0399 0)
@@ -11827,7 +13024,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 104.14 68.5799 90)
+			(at 104.14 71.12 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -12065,7 +13262,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d437f8ee-8a4a-4404-b72b-ab8f3fd8991b")
 		(property "Reference" "R5"
 			(at 104.14 86.3599 0)
@@ -12079,7 +13275,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 104.14 88.8999 90)
+			(at 104.14 91.44 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -12475,6 +13671,17 @@
 				)
 			)
 		)
+		(property "price" "1.79"
+			(at 160.02 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "3b995baa-52f3-4ed3-bf45-dd962012cdb5")
 		)
@@ -12530,7 +13737,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:0402_pF2.2_50V")
+		(lib_id "Capacitors:0402_pF002.2_50V")
 		(at 243.84 154.94 90)
 		(unit 1)
 		(body_style 1)
@@ -12617,6 +13824,17 @@
 			)
 		)
 		(property "SRF" "5970MHz"
+			(at 243.84 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".08"
 			(at 243.84 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -12723,7 +13941,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitors:0402_pF2.2_50V")
+		(lib_id "Capacitors:0402_pF002.2_50V")
 		(at 243.84 53.34 90)
 		(unit 1)
 		(body_style 1)
@@ -12810,6 +14028,17 @@
 			)
 		)
 		(property "SRF" "5970MHz"
+			(at 243.84 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".08"
 			(at 243.84 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13377,6 +14606,17 @@
 		)
 		(property "DN" "863-1767-1-ND"
 			(at 208.28 149.098 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" "1.79"
+			(at 228.6 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14025,6 +15265,16 @@
 		(pin "VCC" input
 			(at 256.54 22.86 180)
 			(uuid "ed5a6aa1-17c1-476a-8c74-a457ba2ba5e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "power_det" output
+			(at 256.54 33.02 180)
+			(uuid "711f6ff8-7e36-4e33-8001-6863574a9a2c")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -722,6 +722,17 @@
 					)
 				)
 			)
+			(property "price" "6.3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "SPIRIT1QTR"
 				(at 0 0 0)
 				(show_name no)
@@ -1777,6 +1788,16 @@
 		)
 		(uuid "fa1d4707-d65f-48eb-b440-2efb5087c55a")
 	)
+	(wire
+		(pts
+			(xy 88.9 101.6) (xy 86.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc562b7b-13d9-4600-a6a7-d5a56f581aed")
+	)
 	(image
 		(at 73.66 63.5)
 		(uuid "d4312d44-2a7b-4a5d-bd10-4e60cc6b9fb3")
@@ -2470,7 +2491,7 @@
 	)
 	(hierarchical_label "RF_OUT"
 		(shape output)
-		(at 86.36 101.6 0)
+		(at 88.9 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2511,6 +2532,41 @@
 			(justify left)
 		)
 		(uuid "ebe4986e-a1c2-486a-b510-529e2cf1616d")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 44.45 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b55af261-8fa6-475c-96ab-25cc9ef2e2da")
+		(property "Net Class" "50 ohm"
+			(at 45.1485 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 43.18 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Capacitors:0402_nF1_50V")
@@ -2589,6 +2645,17 @@
 		)
 		(property "DN" "490-GCM1555C1H102GA16JCT-ND"
 			(at 46.99 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".07"
+			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2762,6 +2829,17 @@
 		)
 		(property "DN" "490-GCM1555C1H102GA16JCT-ND"
 			(at 92.71 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "price" ".07"
+			(at 91.44 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3106,7 +3184,7 @@
 				)
 			)
 		)
-		(property "cost" ".02"
+		(property "cost" ""
 			(at 97.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3987,6 +4065,17 @@
 				)
 			)
 		)
+		(property "price" "6.3"
+			(at 50.8 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "13"
 			(uuid "44c8a0e5-af38-4289-ac5a-4e55e55e446d")
 		)
@@ -4053,6 +4142,10 @@
 		(instances
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/821d8033-3d9a-4e94-9d75-5e5c0bb14bc6"
+					(reference "U49")
+					(unit 1)
+				)
+				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/9ae7c201-9480-402d-a0c4-3941bcca95cf"
 					(reference "U49")
 					(unit 1)
 				)
