@@ -2007,6 +2007,10 @@
 		(color 0 0 0 0)
 		(uuid "f26a0777-c682-45d7-9edc-d0710ea45cea")
 	)
+	(no_connect
+		(at 254 33.02)
+		(uuid "ed4beba6-8c26-4ff2-8af6-81a22e43cca4")
+	)
 	(wire
 		(pts
 			(xy 139.7 81.28) (xy 139.7 86.36)
@@ -2396,6 +2400,16 @@
 			(type default)
 		)
 		(uuid "43cb7ec6-5ee3-4c78-8547-d97e7d657016")
+	)
+	(wire
+		(pts
+			(xy 254 33.02) (xy 256.54 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f100da-8ee2-4045-b884-f915df8cc18e")
 	)
 	(wire
 		(pts
@@ -2906,6 +2920,16 @@
 			(type default)
 		)
 		(uuid "c7dbb40c-81f1-4e24-8efa-06807c22f836")
+	)
+	(wire
+		(pts
+			(xy 254 58.42) (xy 256.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c987bfa6-eb8d-48cd-9698-d0b661802d43")
 	)
 	(wire
 		(pts
@@ -4788,6 +4812,30 @@
 			)
 		)
 	)
+	(global_label "Stage_2_power"
+		(shape input)
+		(at 254 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9645ce0c-b108-4bfb-a8de-fa9b3581b01d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.045 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "PHASE_CTRL_2"
 		(shape input)
 		(at 228.6 149.86 0)
@@ -4953,30 +5001,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "Stage_2_power"
-		(shape input)
-		(at 256.54 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ed7d8437-49a2-45e6-9cce-09d9cc224771")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.585 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -15067,6 +15091,16 @@
 		(pin "VCC" input
 			(at 256.54 48.26 180)
 			(uuid "6e36dabd-be00-4fb3-b506-8e1d7c9204a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "power_det" output
+			(at 256.54 58.42 180)
+			(uuid "a1ec8de3-3d7f-45d3-a880-a59a5ea9cfaf")
 			(effects
 				(font
 					(size 1.27 1.27)

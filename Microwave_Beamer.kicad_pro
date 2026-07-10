@@ -52,15 +52,15 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.2,
+          "corner_smoothing": 1,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -136,7 +136,7 @@
         "malformed_courtyard": "warning",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "warning",
+        "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
@@ -238,9 +238,10 @@
         0.0,
         0.1016,
         0.1524,
-        0.167,
+        0.2286,
         0.34,
-        0.34925
+        0.34925,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -613,7 +614,7 @@
       {
         "line_style": 1,
         "name": "50 ohm",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(183, 37, 255)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
@@ -634,6 +635,24 @@
       ],
       "/RF_IO": [
         "50 ohm"
+      ],
+      "/STEM/FAN_A/Antenna_1": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_A/Antenna_2": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_A/Antenna_3": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_A/Antenna_4": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_A/Antenna_5": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_A/Antenna_6": [
+        "50ohm_antenna_feed"
       ],
       "/STEM/FAN_A/FANFAN A/OUT1": [
         "50 ohm"
@@ -656,6 +675,24 @@
       "/STEM/FAN_A/IN": [
         "50 ohm"
       ],
+      "/STEM/FAN_B/Antenna_1": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_B/Antenna_2": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_B/Antenna_3": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_B/Antenna_4": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_B/Antenna_5": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_B/Antenna_6": [
+        "50ohm_antenna_feed"
+      ],
       "/STEM/FAN_B/FANFAN A/OUT1": [
         "50 ohm"
       ],
@@ -676,6 +713,24 @@
       ],
       "/STEM/FAN_B/IN": [
         "50 ohm"
+      ],
+      "/STEM/FAN_C/Antenna_1": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_C/Antenna_2": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_C/Antenna_3": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_C/Antenna_4": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_C/Antenna_5": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_C/Antenna_6": [
+        "50ohm_antenna_feed"
       ],
       "/STEM/FAN_C/FANFAN A/OUT1": [
         "50 ohm"
@@ -698,6 +753,24 @@
       "/STEM/FAN_C/IN": [
         "50 ohm"
       ],
+      "/STEM/FAN_D/Antenna_1": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_D/Antenna_2": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_D/Antenna_3": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_D/Antenna_4": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_D/Antenna_5": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_D/Antenna_6": [
+        "50ohm_antenna_feed"
+      ],
       "/STEM/FAN_D/FANFAN A/OUT1": [
         "50 ohm"
       ],
@@ -719,6 +792,24 @@
       "/STEM/FAN_D/IN": [
         "50 ohm"
       ],
+      "/STEM/FAN_E/Antenna_1": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_E/Antenna_2": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_E/Antenna_3": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_E/Antenna_4": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_E/Antenna_5": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_E/Antenna_6": [
+        "50ohm_antenna_feed"
+      ],
       "/STEM/FAN_E/FANFAN A/OUT1": [
         "50 ohm"
       ],
@@ -739,6 +830,24 @@
       ],
       "/STEM/FAN_E/IN": [
         "50 ohm"
+      ],
+      "/STEM/FAN_F/Antenna_1": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_F/Antenna_2": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_F/Antenna_3": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_F/Antenna_4": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_F/Antenna_5": [
+        "50ohm_antenna_feed"
+      ],
+      "/STEM/FAN_F/Antenna_6": [
+        "50ohm_antenna_feed"
       ],
       "/STEM/FAN_F/FANFAN A/OUT1": [
         "50 ohm"
@@ -765,6 +874,9 @@
         "50 ohm"
       ],
       "/ext_to_amp": [
+        "50 ohm"
+      ],
+      "Net-(C142-Pad1)": [
         "50 ohm"
       ],
       "Net-(C176-Pad1)": [
@@ -810,6 +922,9 @@
         "50 ohm"
       ],
       "Net-(U5-RFC)": [
+        "50 ohm"
+      ],
+      "Net-(U58-RF_IN)": [
         "50 ohm"
       ],
       "Net-(U6-RFC)": [

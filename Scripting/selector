@@ -1,0 +1,13 @@
+import pcbnew
+board = pcbnew.GetBoard()
+
+for track in board.GetTracks():
+    track.ClearSelected()
+
+    if isinstance(track, pcbnew.PCB_TRACK) and track.GetNetClassName() == 'Default':
+        width_mm = track.GetWidth() / 1e6
+        if 0.34 <= width_mm <= 0.36:
+            track.SetSelected()
+
+pcbnew.Refresh()
+print("done")
