@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.6,
-          "width": 3.5
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -575,7 +575,8 @@
       "LED_SMD",
       "LED_THT",
       "L_mechanical",
-      "Pulsemedica_Diodes"
+      "Pulsemedica_Diodes",
+      "RF_components"
     ],
     "pinned_symbol_libs": [
       "Logic",
@@ -924,7 +925,16 @@
       "Net-(U5-RFC)": [
         "50 ohm"
       ],
+      "Net-(U58-REF_IN)": [
+        "50 ohm"
+      ],
+      "Net-(U58-RFOUTA_P)": [
+        "50 ohm"
+      ],
       "Net-(U58-RF_IN)": [
+        "50 ohm"
+      ],
+      "Net-(U59-RFIN)": [
         "50 ohm"
       ],
       "Net-(U6-RFC)": [

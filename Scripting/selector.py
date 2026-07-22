@@ -11,12 +11,12 @@ for track in board.GetTracks():
 
     if isinstance(track, pcbnew.PCB_TRACK):
         width_mm = track.GetWidth() / 1e6
+        layer = track.GetLayer()
         
         class_name = str(track.GetNetClassName())
 
 
-        CONDITION = width_mm <= 0.15 
-        # and class_name == "Default":
+        CONDITION = (width_mm == .159004) and (layer  == pcbnew.B_Cu)
 
 
         if CONDITION:

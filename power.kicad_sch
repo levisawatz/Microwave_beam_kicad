@@ -18485,7 +18485,7 @@
 				)
 			)
 		)
-		(property "MPN" "LDL1117S33R"
+		(property "MPN" "LDL1117S33R (LDI1117-3.3H)"
 			(at 53.34 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -18496,7 +18496,7 @@
 				)
 			)
 		)
-		(property "DN" "497-17239-1-ND"
+		(property "DN" "4878-LDI1117-3.3HCT-ND"
 			(at 55.88 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -18518,7 +18518,7 @@
 				)
 			)
 		)
-		(property "price" ".45"
+		(property "price" ".26"
 			(at 53.34 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -23583,7 +23583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c75d209f-8db5-4d49-8393-5ee56a87b3a6")
-		(property "Reference" "PS1"
+		(property "Reference" "U60"
 			(at 55.88 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23718,7 +23718,7 @@
 		(instances
 			(project "Microwave_Beamer"
 				(path "/3d000777-5a6c-48c2-9bdf-76c34ab20cc7/9ae7c201-9480-402d-a0c4-3941bcca95cf"
-					(reference "PS1")
+					(reference "U60")
 					(unit 1)
 				)
 			)
