@@ -73,3 +73,6 @@ fp-info-cache
 *.raw
 # Used by the SVG2Shenzhen extension
 .svg2shenzhen-cache/
+
+#kicad history
+.history/*
