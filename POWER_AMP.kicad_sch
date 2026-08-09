@@ -689,7 +689,7 @@
 					)
 				)
 			)
-			(property "Description" "8.15-1.85GHz power amp"
+			(property "Description" "8.15-1.85GHz power amp substitute: 5004L-R"
 				(at 20.574 36.322 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -700,7 +700,7 @@
 					)
 				)
 			)
-			(property "MPN" "SE5023L-R"
+			(property "MPN" "5004L-R"
 				(at 13.208 32.258 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -711,7 +711,7 @@
 					)
 				)
 			)
-			(property "DN" "863-SE5023L-RCT-ND"
+			(property "DN" "863-1376-1-ND"
 				(at 20.574 36.322 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4107,7 +4107,7 @@
 				)
 			)
 		)
-		(property "Description" "8.15-1.85GHz power amp"
+		(property "Description" "8.15-1.85GHz power amp substitute: 5004L-R"
 			(at 71.374 47.498 0)
 			(hide yes)
 			(show_name no)
@@ -4118,7 +4118,7 @@
 				)
 			)
 		)
-		(property "MPN" "SE5023L-R"
+		(property "MPN" "5004L-R"
 			(at 64.008 51.562 0)
 			(hide yes)
 			(show_name no)
@@ -4129,7 +4129,7 @@
 				)
 			)
 		)
-		(property "DN" "863-SE5023L-RCT-ND"
+		(property "DN" "863-1376-1-ND"
 			(at 71.374 47.498 0)
 			(hide yes)
 			(show_name no)

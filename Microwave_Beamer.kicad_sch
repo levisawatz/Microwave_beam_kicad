@@ -8445,6 +8445,16 @@
 		)
 		(uuid "c6568899-30cc-4bf3-81a2-95796489e6aa")
 	)
+	(text "substitute: 5004L-R"
+		(exclude_from_sim no)
+		(at 83.82 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f2f2352e-2905-4fab-95c5-c4131d9b5c5a")
+	)
 	(junction
 		(at 66.04 43.18)
 		(diameter 0)
@@ -29071,7 +29081,7 @@
 				)
 			)
 		)
-		(property "Description" "Decoder/Demultiplexer 1 x 3:8 16-SO"
+		(property "Description" "Decoder/Demultiplexer 1 x 3:8 16-SO substitute: MC74HC138ADR2G"
 			(at 33.02 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -29082,7 +29092,7 @@
 				)
 			)
 		)
-		(property "DN" "1727-2781-1-ND"
+		(property "DN" "MC74HC138ADR2GOSCT-ND"
 			(at 33.02 162.56 0)
 			(hide yes)
 			(show_name no)
