@@ -21,9 +21,9 @@ class MAX2870:
         # MAX2870 Register Array (Defaults for 5.8GHz, Int-N, fREF=100MHz)
         # Register values are calculated based on the MAX2870 datasheet specifications.
         self.registers = [
-            0x803A0000, # Reg 0: INT=1, N=58 (0x3A), FRAC=0, ADDR=000
+            0x801D0000, # Reg 0: INT=1, N=58, FRAC=0 -> 5.8GHz with fPFD=100MHz
             0x8000FFF9, # Reg 1: CPOC=1, CPL=0, Phase=1, Mod=4095, ADDR=001
-            0x80005FA2, # Reg 2: LDS=1, SDN=0, R=1, CP=1111(5.12mA), LDF=1(Int-N), PDP=1, ADDR=010
+            0x80005FC2, # Reg 2: LDS=1, R=1, CP=1111, LDF=1, PDP=1, SHDN=0, ADDR=010
             0x0000000B, # Reg 3: VAS_SHDN=0 (Auto VCO), ADDR=011
             0x638FF024, # Reg 4: FB=1, DIVA=000 (Div 1), RFA_EN=1, APWR=00 (-4dBm), ADDR=100
             0x01400005  # Reg 5: F01=1 (Auto Int), LD=01 (Digital Lock Detect), ADDR=101
@@ -85,6 +85,12 @@ class MAX2870:
         self.send_to_device(self.registers[4])
         print(f"Microwave Beam: Output A power adjusted to setting {power_level}.")
 
+    def set_rf_enable(self, enabled):
+        """Enable or disable the hardware RF output."""
+        self.rfen.value(1 if enabled else 0)
+        print("Microwave Beam: RF output {}.".format(
+            "enabled" if enabled else "disabled"))
+
 
 # ==========================================
 # Main Execution for Raspberry Pi Pico
@@ -113,7 +119,34 @@ if __name__ == '__main__':
     button_1 = Pin(0, Pin.IN, Pin.PULL_UP)
     button_2 = Pin(1, Pin.IN, Pin.PULL_UP)
     ADC_stage_1_power = ADC(Pin(26))
-    ADC_stage_2_power = ADC(Pin(27))
+    ADC_stage_2_power = ADC(Pin(27))       
     ADC_coupled_power = ADC(Pin(28))
-    # Example: Change power level to +5dBm dynamically
-    # vco.set_output_a_power(3)
+
+    # Start at the minimum Output A power setting (-4 dBm).
+    vco.set_output_a_power(2)
+
+    rf_enabled = False
+    previous_button_1 = button_1.value()
+    last_measurement_time = utime.ticks_ms()
+    ADC_REFERENCE_VOLTAGE = 3.3
+
+    while True:
+        # Button inputs use pull-ups, so a press reads low.  Toggle only on
+        # the press edge to avoid repeated toggles while the button is held.
+        button_1_pressed = button_1.value() == 0
+        if button_1_pressed and previous_button_1:
+            rf_enabled = not rf_enabled
+            vco.set_rf_enable(rf_enabled)
+            utime.sleep_ms(20)  # Simple switch debounce.
+        previous_button_1 = not button_1_pressed
+
+        # Log all ADC measurements once per second, converted to volts.
+        if utime.ticks_diff(utime.ticks_ms(), last_measurement_time) >= 1000:
+            stage_1_voltage = ADC_stage_1_power.read_u16() * ADC_REFERENCE_VOLTAGE / 65535
+            stage_2_voltage = ADC_stage_2_power.read_u16() * ADC_REFERENCE_VOLTAGE / 65535
+            coupled_voltage = ADC_coupled_power.read_u16() * ADC_REFERENCE_VOLTAGE / 65535
+            print("ADC volts: stage 1={:.3f}, stage 2={:.3f}, coupled={:.3f}".format(
+                stage_1_voltage, stage_2_voltage, coupled_voltage))
+            last_measurement_time = utime.ticks_ms()
+
+        utime.sleep_ms(10)
