@@ -20,7 +20,7 @@ except ImportError:
 
 
 POWER_LEVELS = {0: "-4 dBm", 1: "-1 dBm", 2: "+2 dBm", 3: "+5 dBm"}
-ANGLES = (-20, 0, 30, -45)
+ANGLES = ( -45, -20, 0, 30)
 COUPLER_DB = 20.0
 
 # Digitized estimates from the supplied curves.  The SE5004L values use the
@@ -99,7 +99,7 @@ class MWBGui(tk.Tk):
         self.status_var = tk.StringVar(value="Disconnected")
         self.rf_var = tk.StringVar(value="RF output: OFF")
         self.power_var = tk.StringVar(value=POWER_LEVELS[0])
-        self.angle_var = tk.IntVar(value=-20)
+        self.angle_var = tk.IntVar(value=0)
         self.measurement_vars = {name: (tk.StringVar(value="-- V"), tk.StringVar(value="-- dBm"))
                                  for name in ("Stage 1 (SE5004L)", "Stage 2 (SE5004L)", "Coupled output (LTC5531)")}
         self._build_ui()

@@ -91,8 +91,8 @@ def main():
                        sck=Pin(2), mosi=Pin(3))
     vco = MAX2870(spi0, Pin(5), Pin(6), Pin(7))
 
-    phase_ctrl_1 = Pin(16, Pin.OUT, value=0)
-    phase_ctrl_2 = Pin(15, Pin.OUT, value=0)
+    phase_ctrl_1 = Pin(12, Pin.OUT, value=0)
+    phase_ctrl_2 = Pin(11, Pin.OUT, value=0)
     adc_stage_1 = ADC(Pin(26))  # SE5004L stage 1 VDET
     adc_stage_2 = ADC(Pin(27))  # SE5004L stage 2 VDET
     adc_coupled = ADC(Pin(28))  # LTC5531 output after the -20 dB coupler

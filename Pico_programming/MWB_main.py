@@ -102,6 +102,9 @@ if __name__ == '__main__':
     PIN_LE   = 5
     PIN_CE   = 6
     PIN_RFEN = 7
+    #these pins control the angle: 00 01 10 11 generates angles: -20 deg, 0 deg, 30 deg, -45 deg
+    PHASE_CTRL1 = 16 
+    PHASE_CTRL2 = 15
     
     # Configure hardware SPI on the Pico
     # The MAX2870 latches data on the rising edge of CLK, MSB first
@@ -118,12 +121,13 @@ if __name__ == '__main__':
     vco = MAX2870(spi=spi0, pin_le=le_pin, pin_ce=ce_pin, pin_rfen=rfen_pin)
     button_1 = Pin(0, Pin.IN, Pin.PULL_UP)
     button_2 = Pin(1, Pin.IN, Pin.PULL_UP)
-    ADC_stage_1_power = ADC(Pin(26))
-    ADC_stage_2_power = ADC(Pin(27))       
-    ADC_coupled_power = ADC(Pin(28))
+    ADC_stage_1_power = ADC(Pin(26)) #Vdet pin from the SE5004L amplifer (first amp stage)
+    ADC_stage_2_power = ADC(Pin(27)) #Vdet pin from the SE5004L amplifer (second amp stage)
+    ADC_coupled_power = ADC(Pin(28)) #output pin from LTC5531ES6#TRMPBF coupled with second amp stage with a -20dB directional coupler
 
     # Start at the minimum Output A power setting (-4 dBm).
-    vco.set_output_a_power(2)
+    vco.set_output_a_power(1)
+    vco.set_rf_enable(0)
 
     rf_enabled = False
     previous_button_1 = button_1.value()
