@@ -102,7 +102,8 @@ class MWBGui(tk.Tk):
         self.power_var = tk.StringVar(value=POWER_LEVELS[0])
         self.direction_index = tk.IntVar(value=DIRECTION_ANGLES.index(0))
         self.direction_text = tk.StringVar(value="0°")
-        self.frequency_var = tk.StringVar(value="5800")
+        self.requested_frequency_var = tk.StringVar(value="5800")
+        self.actual_frequency_var = tk.StringVar(value="--")
         self.measurement_vars = {name: (tk.StringVar(value="-- V"), tk.StringVar(value="-- dBm"))
                                  for name in ("Stage 1 (SE5004L)", "Stage 2 (SE5004L)", "Coupled output (LTC5531)")}
         self._build_ui()
@@ -133,15 +134,21 @@ class MWBGui(tk.Tk):
         ttk.Label(control, text="VCO / PLL frequency (MHz)").grid(row=0, column=2, sticky="w", padx=(22, 0))
         frequency_frame = ttk.Frame(control)
         frequency_frame.grid(row=1, column=2, sticky="w", padx=(22, 0))
-        frequency_entry = ttk.Entry(frequency_frame, textvariable=self.frequency_var, width=10)
+        frequency_entry = ttk.Entry(frequency_frame, textvariable=self.requested_frequency_var, width=10)
         frequency_entry.pack(side="left")
         frequency_entry.bind("<Return>", self.set_frequency)
         ttk.Button(frequency_frame, text="Set", command=self.set_frequency).pack(side="left", padx=(5, 0))
+        actual_frequency_frame = ttk.Frame(control)
+        actual_frequency_frame.grid(row=2, column=2, sticky="w", padx=(22, 0), pady=(8, 0))
+        ttk.Label(actual_frequency_frame, text="Actual PLL:").pack(side="left")
+        ttk.Entry(actual_frequency_frame, textvariable=self.actual_frequency_var, width=10,
+                  state="readonly").pack(side="left", padx=(5, 2))
+        ttk.Label(actual_frequency_frame, text="MHz").pack(side="left")
         ttk.Label(control, text="Beam direction (left → right)").grid(row=2, column=1, sticky="w", pady=(8, 0))
         direction_frame = ttk.Frame(control)
         direction_frame.grid(row=3, column=1, columnspan=2, sticky="w")
         tk.Scale(direction_frame, from_=0, to=3, resolution=1, orient="horizontal",
-                 showvalue=False, length=260, variable=self.direction_index,
+                 showvalue=False, length=150, variable=self.direction_index,
                  command=self.set_direction).grid(row=0, column=0, sticky="w")
         ttk.Label(direction_frame, text="−45°       −20°          0°        +30°",
                   textvariable=None).grid(row=1, column=0, sticky="w")
@@ -198,7 +205,7 @@ class MWBGui(tk.Tk):
 
     def set_frequency(self, _event=None):
         try:
-            frequency_mhz = float(self.frequency_var.get())
+            frequency_mhz = float(self.requested_frequency_var.get())
         except ValueError:
             messagebox.showerror("Invalid frequency", "Enter a frequency in MHz, for example 5800.")
             return
@@ -246,7 +253,7 @@ class MWBGui(tk.Tk):
                 self.direction_index.set(DIRECTION_ANGLES.index(angle))
                 self.direction_text.set("%+d°" % angle)
         if "frequency_mhz" in state:
-            self.frequency_var.set("%.4f" % state["frequency_mhz"])
+            self.actual_frequency_var.set("%.4f" % state["frequency_mhz"])
 
     def update_measurements(self, payload):
         monitors = (("Stage 1 (SE5004L)", "stage_1", SE5004L_5850MHZ, 0.0),

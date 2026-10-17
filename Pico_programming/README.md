@@ -15,7 +15,9 @@ Select the Pico COM port, connect, then set the RF enable, MAX2870 output-A
 power, VCO/PLL frequency, and beam angle. Beam direction uses a four-stop
 slider ordered left-to-right as -45°, -20°, 0°, and +30°. The frequency entry
 accepts 3000--6000 MHz (the board's direct VCO range); press Set or Enter to
-apply it. The monitor panel samples GP26/GP27/GP28 twice per second.
+apply it. The read-only Actual PLL box reports the frequency acknowledged by
+the Pico, without changing the requested-frequency entry. The monitor panel
+samples GP26/GP27/GP28 twice per second.
 
 The displayed SE5004L estimates are interpolated from the provided 5850 MHz
 VDET plot. The LTC5531 estimate is interpolated from its 6000 MHz / 25 C plot,
