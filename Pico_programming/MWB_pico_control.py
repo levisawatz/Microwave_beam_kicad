@@ -6,6 +6,7 @@ newline-terminated ASCII commands and reports machine-readable JSON lines:
     RF 0|1                 Disable or enable RF output
     POWER 0|1|2|3          MAX2870 Output-A setting (-4, -1, +2, +5 dBm)
     ANGLE -20|0|30|-45     Select the corresponding phase-control state
+    FREQ <MHz>              Set PLL output frequency (3000.000 to 6000.000 MHz)
     MEASURE                Read all power-monitor ADC inputs
     STATE                  Read the selected settings without sampling ADCs
     PING                   Check the connection
@@ -24,6 +25,9 @@ import ujson
 
 ADC_REFERENCE_VOLTAGE = 3.3
 POWER_LEVELS_DBM = (-4, -1, 2, 5)
+PFD_FREQUENCY_MHZ = 100.0
+MIN_FREQUENCY_MHZ = 3000.0
+MAX_FREQUENCY_MHZ = 6000.0
 ANGLE_STATES = {
     -20: (0, 0),
     0: (0, 1),
@@ -73,6 +77,29 @@ class MAX2870:
         self.registers[4] |= level << 3
         self.send_to_device(self.registers[4])
 
+    def set_frequency(self, frequency_mhz):
+        """Set the RFOUTA frequency using the existing 100 MHz PFD setup.
+
+        Register 0 contains INT in bits 30:15 and FRAC in bits 14:3.  The
+        existing register-1 MOD value is 4095, giving sub-100-MHz resolution.
+        This control deliberately limits requests to the MAX2870's 3--6 GHz
+        VCO range used by this board; it does not configure an output divider.
+        """
+        if not MIN_FREQUENCY_MHZ <= frequency_mhz <= MAX_FREQUENCY_MHZ:
+            raise ValueError("FREQ must be between 3000 and 6000 MHz")
+        modulus = 4095
+        n_value = frequency_mhz / PFD_FREQUENCY_MHZ
+        integer = int(n_value)
+        fractional = int((n_value - integer) * modulus + 0.5)
+        if fractional == modulus:
+            integer += 1
+            fractional = 0
+        # Preserve bit 31 and the low address bits while replacing INT/FRAC.
+        self.registers[0] = ((self.registers[0] & 0x80000007)
+                             | (integer << 15) | (fractional << 3))
+        self.send_to_device(self.registers[0])  # R0 write starts VCO autocal.
+        return (integer + fractional / modulus) * PFD_FREQUENCY_MHZ
+
     def set_rf_enable(self, enabled):
         self.rfen.value(1 if enabled else 0)
 
@@ -97,8 +124,10 @@ def main():
     adc_stage_2 = ADC(Pin(27))  # SE5004L stage 2 VDET
     adc_coupled = ADC(Pin(28))  # LTC5531 output after the -20 dB coupler
 
-    state = {"rf_enabled": False, "power_level": 0, "angle_deg": -20}
+    state = {"rf_enabled": False, "power_level": 0, "angle_deg": -20,
+             "frequency_mhz": 5800.0}
     vco.set_output_a_power(state["power_level"])
+    state["frequency_mhz"] = round(vco.set_frequency(state["frequency_mhz"]), 4)
     vco.set_rf_enable(False)
 
     poller = uselect.poll()
@@ -155,6 +184,9 @@ def main():
                 if angle not in ANGLE_STATES:
                     raise ValueError("ANGLE must be -20, 0, 30, or -45")
                 apply_angle(angle)
+                send("OK", state)
+            elif command == "FREQ" and len(fields) == 2:
+                state["frequency_mhz"] = round(vco.set_frequency(float(fields[1])), 4)
                 send("OK", state)
             else:
                 raise ValueError("unknown or malformed command")

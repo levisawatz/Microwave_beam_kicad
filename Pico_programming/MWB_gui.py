@@ -20,7 +20,8 @@ except ImportError:
 
 
 POWER_LEVELS = {0: "-4 dBm", 1: "-1 dBm", 2: "+2 dBm", 3: "+5 dBm"}
-ANGLES = ( -45, -20, 0, 30)
+# Left-to-right order on the direction slider.
+DIRECTION_ANGLES = (-45, -20, 0, 30)
 COUPLER_DB = 20.0
 
 # Digitized estimates from the supplied curves.  The SE5004L values use the
@@ -99,7 +100,9 @@ class MWBGui(tk.Tk):
         self.status_var = tk.StringVar(value="Disconnected")
         self.rf_var = tk.StringVar(value="RF output: OFF")
         self.power_var = tk.StringVar(value=POWER_LEVELS[0])
-        self.angle_var = tk.IntVar(value=0)
+        self.direction_index = tk.IntVar(value=DIRECTION_ANGLES.index(0))
+        self.direction_text = tk.StringVar(value="0°")
+        self.frequency_var = tk.StringVar(value="5800")
         self.measurement_vars = {name: (tk.StringVar(value="-- V"), tk.StringVar(value="-- dBm"))
                                  for name in ("Stage 1 (SE5004L)", "Stage 2 (SE5004L)", "Coupled output (LTC5531)")}
         self._build_ui()
@@ -122,17 +125,27 @@ class MWBGui(tk.Tk):
         control = ttk.LabelFrame(self, text="RF controls", padding=8)
         control.grid(row=1, column=0, sticky="ew", **padding)
         self.rf_button = ttk.Button(control, textvariable=self.rf_var, command=self.toggle_rf)
-        self.rf_button.grid(row=0, column=0, rowspan=2, padx=(0, 20))
+        self.rf_button.grid(row=0, column=0, rowspan=3, padx=(0, 20))
         ttk.Label(control, text="Synthesizer power").grid(row=0, column=1, sticky="w")
         power_combo = ttk.Combobox(control, textvariable=self.power_var, values=list(POWER_LEVELS.values()), width=10, state="readonly")
         power_combo.grid(row=1, column=1, sticky="w")
         power_combo.bind("<<ComboboxSelected>>", self.set_power)
-        ttk.Label(control, text="Beam angle").grid(row=0, column=2, sticky="w", padx=(22, 0))
-        angle_frame = ttk.Frame(control)
-        angle_frame.grid(row=1, column=2, sticky="w", padx=(22, 0))
-        for angle in ANGLES:
-            ttk.Radiobutton(angle_frame, text="%+d°" % angle, variable=self.angle_var,
-                            value=angle, command=self.set_angle).pack(side="left", padx=2)
+        ttk.Label(control, text="VCO / PLL frequency (MHz)").grid(row=0, column=2, sticky="w", padx=(22, 0))
+        frequency_frame = ttk.Frame(control)
+        frequency_frame.grid(row=1, column=2, sticky="w", padx=(22, 0))
+        frequency_entry = ttk.Entry(frequency_frame, textvariable=self.frequency_var, width=10)
+        frequency_entry.pack(side="left")
+        frequency_entry.bind("<Return>", self.set_frequency)
+        ttk.Button(frequency_frame, text="Set", command=self.set_frequency).pack(side="left", padx=(5, 0))
+        ttk.Label(control, text="Beam direction (left → right)").grid(row=2, column=1, sticky="w", pady=(8, 0))
+        direction_frame = ttk.Frame(control)
+        direction_frame.grid(row=3, column=1, columnspan=2, sticky="w")
+        tk.Scale(direction_frame, from_=0, to=3, resolution=1, orient="horizontal",
+                 showvalue=False, length=260, variable=self.direction_index,
+                 command=self.set_direction).grid(row=0, column=0, sticky="w")
+        ttk.Label(direction_frame, text="−45°       −20°          0°        +30°",
+                  textvariable=None).grid(row=1, column=0, sticky="w")
+        ttk.Label(direction_frame, textvariable=self.direction_text).grid(row=0, column=1, padx=(8, 0))
 
         monitor = ttk.LabelFrame(self, text="Power-monitor readings (auto-refreshes twice per second)", padding=8)
         monitor.grid(row=2, column=0, sticky="ew", **padding)
@@ -178,8 +191,21 @@ class MWBGui(tk.Tk):
         chosen = next(level for level, label in POWER_LEVELS.items() if label == self.power_var.get())
         self.send("POWER %d" % chosen)
 
-    def set_angle(self):
-        self.send("ANGLE %d" % self.angle_var.get())
+    def set_direction(self, _value=None):
+        angle = DIRECTION_ANGLES[self.direction_index.get()]
+        self.direction_text.set("%+d°" % angle)
+        self.send("ANGLE %d" % angle)
+
+    def set_frequency(self, _event=None):
+        try:
+            frequency_mhz = float(self.frequency_var.get())
+        except ValueError:
+            messagebox.showerror("Invalid frequency", "Enter a frequency in MHz, for example 5800.")
+            return
+        if not 3000.0 <= frequency_mhz <= 6000.0:
+            messagebox.showerror("Invalid frequency", "The board's VCO control range is 3000 to 6000 MHz.")
+            return
+        self.send("FREQ %.6f" % frequency_mhz)
 
     def poll_measurement(self):
         if self.connection.port and not self.measurement_pending:
@@ -215,7 +241,12 @@ class MWBGui(tk.Tk):
         if "power_level" in state:
             self.power_var.set(POWER_LEVELS.get(state["power_level"], "Unknown"))
         if "angle_deg" in state:
-            self.angle_var.set(state["angle_deg"])
+            angle = state["angle_deg"]
+            if angle in DIRECTION_ANGLES:
+                self.direction_index.set(DIRECTION_ANGLES.index(angle))
+                self.direction_text.set("%+d°" % angle)
+        if "frequency_mhz" in state:
+            self.frequency_var.set("%.4f" % state["frequency_mhz"])
 
     def update_measurements(self, payload):
         monitors = (("Stage 1 (SE5004L)", "stage_1", SE5004L_5850MHZ, 0.0),
